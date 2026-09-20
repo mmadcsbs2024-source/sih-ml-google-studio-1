@@ -1,0 +1,388 @@
+========================================
+MODULE 4 — DUPLICATE / EVENT ANALYSIS
+========================================
+Analytical note: Slide No is not treated as a physical event identifier in this module.
+Physical location and historical occurrence are analyzed separately.
+Total records: 36071
+Exact duplicate rows: 0
+Duplicate Sl.No rows: 0
+Unique Sl.No: 36071
+Duplicate Slide No rows: 559
+Unique Slide No: 35716
+Duplicate Slide No groups: 205
+Maximum records per Slide No: 18
+
+========================================
+SL.NO DISCREPANCY CHECK
+========================================
+Direct verification from data/processed/gsi_with_dates.csv:
+df['Sl.No.'].duplicated(keep=False).sum() = 0
+df['Sl.No.'].nunique(dropna=True) = 36071
+
+========================================
+SLIDE NO REUSE ANALYSIS
+========================================
+Purpose: verify whether the same Slide No is reused across different locations, names, or coordinates.
+Duplicated Slide No groups: 205
+Groups spanning multiple states: 87
+Groups spanning multiple districts: 97
+Groups spanning materially different coordinates: 179
+Groups spanning different slide names: 120
+
+Representative examples (first 20):
+Slide No=HP/MAN/53A13/2023/ | records=18 | states=['Himachal Pradesh'] | districts=['Mandi'] | slide_names=['---', 'Banal Slide', 'Baral Slide', 'Bhadyar Slide', 'Bhadyar slide', 'Brahma Falad Slide', 'Brang slide', 'Chanauta Slide', 'Didnu Debris Slide', 'Langerh Slide', 'Maloh Slide', 'Tatih debris slide']
+  coordinates=[{'Latitude': 31.704166, 'Longitude': 76.723611}, {'Latitude': 31.79333, 'Longitude': 76.76222}, {'Latitude': 31.78944, 'Longitude': 76.75555}, {'Latitude': 31.789722, 'Longitude': 76.754722}, {'Latitude': 31.782631, 'Longitude': 76.755115}, {'Latitude': 31.78222222, 'Longitude': 76.75055556}, {'Latitude': 31.781418, 'Longitude': 76.756217}, {'Latitude': 31.78, 'Longitude': 76.77055}, {'Latitude': 31.78083, 'Longitude': 76.77722}, {'Latitude': 31.78527778, 'Longitude': 76.78305556}, {'Latitude': 31.79611, 'Longitude': 76.785}, {'Latitude': 31.783611, 'Longitude': 76.7825}, {'Latitude': 31.756241, 'Longitude': 76.791823}, {'Latitude': 31.75833, 'Longitude': 76.773055}, {'Latitude': 31.76694, 'Longitude': 76.7675}, {'Latitude': 31.7675, 'Longitude': 76.76527}, {'Latitude': 31.761944, 'Longitude': 76.768333}, {'Latitude': 31.76722, 'Longitude': 76.77583}]
+
+Slide No=HP/SHI/53E04/2023/ | records=14 | states=['Himachal Pradesh'] | districts=['Kinnaur', 'Nathpa', 'SHIMLA', 'Shimla', 'Solan'] | slide_names=['Barauni Nala', 'Chaura', 'Comely Bank', 'Himfed Petrol Pump', 'Jeori', 'Karibangla', 'Mansar Landslide', 'Mohan Mekin Landslide', 'Nangal Devi', 'Nathpa', 'Panvi', 'Rahighat-Kiartoo Slide', 'Rajvir Motors Landslide in Shimla\nUrban Slide', 'Tutikandi, Bangali Bagicha Landslide in\nShimla Urban Slide']
+  coordinates=[{'Latitude': 31.09722222, 'Longitude': 77.15361111}, {'Latitude': 31.09527778, 'Longitude': 77.17027778}, {'Latitude': 31.1075, 'Longitude': 77.16305556}, {'Latitude': 30.92333333, 'Longitude': 77.11111111}, {'Latitude': 30.9425, 'Longitude': 77.12916667}, {'Latitude': 30.99120833, 'Longitude': 77.09283333}, {'Latitude': 31.11972222, 'Longitude': 77.33472222}, {'Latitude': 31.12694444, 'Longitude': 77.33944444}, {'Latitude': 31.12833333, 'Longitude': 77.34888889}, {'Latitude': 31.485, 'Longitude': 77.69055556}, {'Latitude': 31.53866667, 'Longitude': 77.78386389}, {'Latitude': 31.56230833, 'Longitude': 77.98207222}, {'Latitude': 31.53944444, 'Longitude': 78.01388889}]
+
+Slide No=1 | records=8 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Almora', 'Bageshwar', 'Chamoli', 'Darjeeling', 'Idukki', 'Rudraprayag', 'Thiruvananthapuram'] | slide_names=['Chandika Dhar, Near Bharasu', 'KwarabLandslide', 'Pagna Landslide', 'Parivathanamedu I', 'Ponmudi', 'Tangni slide L1', 'Thallakkanam']
+  coordinates=[{'Latitude': 9.947797222, 'Longitude': 76.95000278}, {'Latitude': 9.848525, 'Longitude': 77.161483}, {'Latitude': 8.7437, 'Longitude': 77.1226}, {'Latitude': 26.80380556, 'Longitude': 88.29666667}, {'Latitude': 29.55386944, 'Longitude': 79.60821667}, {'Latitude': 29.78191944, 'Longitude': 79.81623611}, {'Latitude': 30.48083, 'Longitude': 79.46833}, {'Latitude': 30.59222222, 'Longitude': 79.02833333}]
+
+Slide No=nan | records=8 | states=[] | districts=[] | slide_names=[]
+  coordinates=[]
+
+Slide No=2 | records=5 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Chamoli', 'Darjeeling', 'Idukki', 'Thiruvananthapuram'] | slide_names=['Parivathanamedu I I', 'Patal ganga slide L2', 'Ponmudi', 'Thallakkanam II']
+  coordinates=[{'Latitude': 9.947933333, 'Longitude': 76.95058333}, {'Latitude': 9.842312, 'Longitude': 77.160549}, {'Latitude': 8.7531, 'Longitude': 77.1252}, {'Latitude': 26.82972222, 'Longitude': 88.23338889}, {'Latitude': 30.4861, 'Longitude': 79.4794}]
+
+Slide No=3 | records=5 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Nainital', 'Thiruvananthapuram'] | slide_names=['KN 3\n_', 'Parivathanamedu I II', 'Periyar Valley']
+  coordinates=[{'Latitude': 9.929027778, 'Longitude': 76.96697222}, {'Latitude': 9.842529, 'Longitude': 77.160514}, {'Latitude': 8.7557, 'Longitude': 77.1248}, {'Latitude': 26.846, 'Longitude': 88.22416667}, {'Latitude': 29.319882, 'Longitude': 79.351964}]
+
+Slide No=21 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Bageshwar', 'Darjeeling', 'Idukki'] | slide_names=['Badipanyali', 'Chappath', 'Kudakkallu III']
+  coordinates=[{'Latitude': 9.982730556, 'Longitude': 76.91701667}, {'Latitude': 9.912176, 'Longitude': 77.176511}, {'Latitude': 26.85202778, 'Longitude': 88.19341667}, {'Latitude': 29.97369444, 'Longitude': 80.05080556}]
+
+Slide No=22 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Bageshwar', 'Darjeeling', 'Idukki'] | slide_names=['Badipanyali near school', 'Karakunnu', 'Pambla']
+  coordinates=[{'Latitude': 9.976441667, 'Longitude': 76.92743333}, {'Latitude': 9.918204, 'Longitude': 77.166852}, {'Latitude': 26.85147222, 'Longitude': 88.19336111}, {'Latitude': 29.97369444, 'Longitude': 80.05080556}]
+
+Slide No=23 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Bageshwar', 'Darjeeling', 'Idukki'] | slide_names=['Chemmnnar- I', 'Litti', 'Pambla II']
+  coordinates=[{'Latitude': 9.972691667, 'Longitude': 76.93636111}, {'Latitude': 9.923082, 'Longitude': 77.159007}, {'Latitude': 26.85191667, 'Longitude': 88.19422222}, {'Latitude': 30.0125, 'Longitude': 80.02977778}]
+
+Slide No=24 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Bageshwar', 'Darjeeling', 'Idukki'] | slide_names=['Arattupara', 'Pambla III', 'Sailani']
+  coordinates=[{'Latitude': 9.964275, 'Longitude': 76.94714722}, {'Latitude': 9.929417, 'Longitude': 77.123704}, {'Latitude': 26.85280556, 'Longitude': 88.19488889}, {'Latitude': 30.0125, 'Longitude': 80.02977778}]
+
+Slide No=25 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Almora', 'Darjeeling', 'Idukki'] | slide_names=['Khairkhet', 'Mavara City -I', 'Pambla IV']
+  coordinates=[{'Latitude': 9.954502778, 'Longitude': 76.97307222}, {'Latitude': 9.928599, 'Longitude': 77.121639}, {'Latitude': 26.85013889, 'Longitude': 88.1935}, {'Latitude': 29.70238889, 'Longitude': 79.88188889}]
+
+Slide No=26 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Pithoragarh'] | slide_names=['Kanalichhina', 'Mavara City - II', 'Pambla V']
+  coordinates=[{'Latitude': 9.953966667, 'Longitude': 76.97423889}, {'Latitude': 9.926836, 'Longitude': 77.123159}, {'Latitude': 26.84908333, 'Longitude': 88.19411111}, {'Latitude': 29.67694444, 'Longitude': 80.27161111}]
+
+Slide No=27 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Pithoragarh'] | slide_names=['Dobat rock fall', 'Mavara City - III', 'Periyar Valley Chappath']
+  coordinates=[{'Latitude': 9.934419444, 'Longitude': 76.97129444}, {'Latitude': 9.926536, 'Longitude': 77.126202}, {'Latitude': 26.86552778, 'Longitude': 88.19272222}, {'Latitude': 29.87286111, 'Longitude': 80.5575}]
+
+Slide No=28 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Pithoragarh'] | slide_names=['Pangla', 'Periyar Valley Chappath II', 'Vattakannippara -I']
+  coordinates=[{'Latitude': 9.937847222, 'Longitude': 76.97359167}, {'Latitude': 9.926579, 'Longitude': 77.117961}, {'Latitude': 26.86380556, 'Longitude': 88.19369444}, {'Latitude': 29.97177778, 'Longitude': 80.6865}]
+
+Slide No=29 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Pithoragarh'] | slide_names=['Keerithode', 'Tawaghat', 'Vattakannippara -II']
+  coordinates=[{'Latitude': 9.939980556, 'Longitude': 76.97325556}, {'Latitude': 9.916541, 'Longitude': 77.114532}, {'Latitude': 26.863, 'Longitude': 88.19305556}, {'Latitude': 29.96055556, 'Longitude': 80.61472222}]
+
+Slide No=30 | records=4 | states=['Kerala', 'Uttarakhand', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Pithoragarh'] | slide_names=['Askot', 'Keerithode Junction', 'Vattakannippara -III']
+  coordinates=[{'Latitude': 9.9378, 'Longitude': 76.96460556}, {'Latitude': 9.914051, 'Longitude': 77.115246}, {'Latitude': 26.86111111, 'Longitude': 88.19333333}, {'Latitude': 29.75888889, 'Longitude': 80.34944444}]
+
+Slide No=4 | records=4 | states=['Kerala', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Kollam'] | slide_names=['Chippanchira', 'Parivathanamedu IV', 'Periyar Valley II']
+  coordinates=[{'Latitude': 9.874508333, 'Longitude': 76.97758333}, {'Latitude': 9.847146, 'Longitude': 77.159369}, {'Latitude': 8.749, 'Longitude': 77.0235}, {'Latitude': 26.84672222, 'Longitude': 88.22425}]
+
+Slide No=5 | records=4 | states=['Kerala', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Kollam'] | slide_names=['5 Acre Kanam', 'Aryankavu New Railway Station', 'Periyar Valley III']
+  coordinates=[{'Latitude': 9.925294444, 'Longitude': 76.976025}, {'Latitude': 9.841301, 'Longitude': 77.1688}, {'Latitude': 8.9555, 'Longitude': 77.1333}, {'Latitude': 26.84783333, 'Longitude': 88.22425}]
+
+Slide No=6 | records=4 | states=['Kerala', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Kollam'] | slide_names=['Aryankavu', 'Mathaikada I', 'Periyar Valley IV']
+  coordinates=[{'Latitude': 9.925441667, 'Longitude': 76.97551944}, {'Latitude': 9.838144, 'Longitude': 77.18461}, {'Latitude': 8.9741, 'Longitude': 77.1459}, {'Latitude': 26.84736111, 'Longitude': 88.22436111}]
+
+Slide No=7 | records=4 | states=['Kerala', 'West Bengal'] | districts=['Darjeeling', 'Idukki', 'Kollam'] | slide_names=['Aryankavu Old Railway Station', 'Mathaikada II', 'Periyar Valley V']
+  coordinates=[{'Latitude': 9.925702778, 'Longitude': 76.975075}, {'Latitude': 9.83882, 'Longitude': 77.153524}, {'Latitude': 8.982, 'Longitude': 77.1529}, {'Latitude': 26.84972222, 'Longitude': 88.21802778}]
+
+
+========================================
+PHYSICAL LOCATION vs HISTORICAL OCCURRENCE
+========================================
+1. PHYSICAL LANDSLIDE LOCATION
+   A persistent landslide location represented by spatial evidence such as validated coordinates, state/district consistency, and slide-name similarity.
+2. HISTORICAL OCCURRENCE
+   A documented event or reactivation at that location, represented through History text and event date/date-range fields.
+3. IMPORTANT: a single physical location may have multiple historical occurrences, e.g. '2016, reactivated on 14 May 2022'.
+4. Therefore, Slide No alone is not a reliable physical-event identifier.
+
+========================================
+COORDINATE-BASED ANALYSIS
+========================================
+Exact coordinate duplicates are analyzed independently of Slide No.
+Exact duplicate coordinate pairs: 1254
+Coordinate pairs shared by multiple Slide No: 1230
+Coordinate pairs with different dates: 123
+Coordinate pairs with same State/District: 1218
+Coordinate pairs with different State/District: 36
+Records with missing coordinates: 1
+Coordinate group classification counts: likely_same_location=1218, possible_same_location=35, likely_distinct=1, unclear=0
+
+Representative exact-coordinate examples:
+label=likely_same_location | records=19 | Slide No values=19 | States=1 | Districts=1 | Slide Names=19 | distinct date representations=1 | coordinates=(30.7175, 78.3508)
+label=likely_same_location | records=15 | Slide No values=15 | States=1 | Districts=1 | Slide Names=0 | distinct date representations=1 | coordinates=(32.45, 76.52)
+label=likely_same_location | records=15 | Slide No values=15 | States=1 | Districts=1 | Slide Names=0 | distinct date representations=1 | coordinates=(33.51, 75.58)
+label=likely_same_location | records=13 | Slide No values=13 | States=1 | Districts=1 | Slide Names=0 | distinct date representations=1 | coordinates=(27.296928, 93.088111)
+label=likely_same_location | records=12 | Slide No values=12 | States=1 | Districts=1 | Slide Names=2 | distinct date representations=1 | coordinates=(13.89, 74.83)
+label=likely_same_location | records=12 | Slide No values=12 | States=1 | Districts=1 | Slide Names=4 | distinct date representations=6 | coordinates=(32.43, 75.96)
+label=possible_same_location | records=12 | Slide No values=12 | States=1 | Districts=2 | Slide Names=1 | distinct date representations=1 | coordinates=(13.72, 74.98)
+label=possible_same_location | records=11 | Slide No values=11 | States=1 | Districts=2 | Slide Names=1 | distinct date representations=1 | coordinates=(13.72, 74.99)
+label=likely_same_location | records=9 | Slide No values=9 | States=1 | Districts=1 | Slide Names=0 | distinct date representations=1 | coordinates=(33.52, 75.58)
+label=likely_same_location | records=9 | Slide No values=9 | States=1 | Districts=1 | Slide Names=0 | distinct date representations=1 | coordinates=(24.34, 93.66)
+label=likely_same_location | records=9 | Slide No values=9 | States=1 | Districts=1 | Slide Names=9 | distinct date representations=2 | coordinates=(22.18, 92.61)
+label=likely_same_location | records=9 | Slide No values=9 | States=1 | Districts=1 | Slide Names=5 | distinct date representations=3 | coordinates=(10.08, 77.05)
+label=likely_same_location | records=9 | Slide No values=9 | States=1 | Districts=1 | Slide Names=1 | distinct date representations=2 | coordinates=(32.64, 76.08)
+label=likely_same_location | records=9 | Slide No values=9 | States=1 | Districts=1 | Slide Names=3 | distinct date representations=5 | coordinates=(32.42, 75.96)
+label=likely_same_location | records=8 | Slide No values=8 | States=1 | Districts=1 | Slide Names=8 | distinct date representations=1 | coordinates=(27.177667, 93.148694)
+label=likely_same_location | records=8 | Slide No values=8 | States=1 | Districts=1 | Slide Names=5 | distinct date representations=2 | coordinates=(10.07, 77.04)
+label=likely_same_location | records=8 | Slide No values=8 | States=1 | Districts=1 | Slide Names=7 | distinct date representations=1 | coordinates=(18.59, 73.59)
+label=likely_same_location | records=8 | Slide No values=8 | States=1 | Districts=1 | Slide Names=0 | distinct date representations=1 | coordinates=(32.48, 76.29)
+label=possible_same_location | records=8 | Slide No values=8 | States=1 | Districts=2 | Slide Names=2 | distinct date representations=1 | coordinates=(13.72, 75.0)
+label=likely_same_location | records=8 | Slide No values=8 | States=1 | Districts=1 | Slide Names=0 | distinct date representations=1 | coordinates=(32.43, 76.53)
+
+========================================
+NEARBY COORDINATE ANALYSIS
+========================================
+Analytical threshold used: 0.001 decimal degrees (~111 m) for candidate nearby-coordinate checks only.
+This is not a merge operation; it is a conservative screening step for same-location hypothesis testing.
+Nearby coordinate buckets with multiple Slide No values: 3163
+Nearby buckets suggesting same physical location: 3003
+Nearby buckets suggesting nearby but distinct landslides: 160
+Nearby buckets remaining unclear: 0
+
+Representative nearby-coordinate examples:
+label=same_physical_location | ['Slide No=AS/CHR/83D14/2020/4 | State=Assam | District=Cachar | Slide Name=Raj Nagar Slide | Lat=24.53 | Lon=92.84', 'Slide No=AS/CHR/83D14/2020/5 | State=Assam | District=Cachar | Slide Name=Shymacharanpur slide | Lat=24.53 | Lon=92.84']
+label=same_physical_location | ['Slide No=AS/HKN/83D10/2020/9 | State=Assam | District=Hailakandi | Slide Name=Purbanakshatila slide 1 | Lat=24.55 | Lon=92.75', 'Slide No=AS/HKN/83D10/2020/10 | State=Assam | District=Hailakandi | Slide Name=Purbanakshatila slide 2 | Lat=24.55 | Lon=92.75']
+label=same_physical_location | ['Slide No=AS/KRM/83D06/2014/01 | State=Assam | District=Karimganj | Slide Name=Satkaragul | Lat=24.70619 | Lon=92.28997', 'Slide No=AS/KRM/83D06/2014-15/0001 | State=Assam | District=Karimganj | Slide Name=Satkaragul (Pathariya Hills RF), | Lat=24.70619444 | Lon=92.28997222']
+label=same_physical_location | ['Slide No=AS/CHR/83D09/2020/2 | State=Assam | District=Cachar | Slide Name=Bicrampore slide-1 | Lat=24.96 | Lon=92.7', 'Slide No=AS/CHR/83D09/2020/3 | State=Assam | District=Cachar | Slide Name=Bicrampore Slide -2 | Lat=24.96 | Lon=92.7']
+label=same_physical_location | ['Slide No=AS/CHR/83D09/2020/1 | State=Assam | District=Cachar | Slide Name=Sonbari Slide | Lat=24.96 | Lon=92.66', 'Slide No=AS/CHR/83D09/2020/5 | State=Assam | District=Cachar | Slide Name=Dinonatpur slide | Lat=24.96 | Lon=92.66']
+label=same_physical_location | ['Slide No=AS/CHR/83D09/2020/4 | State=Assam | District=Cachar | Slide Name=Narainchara grant slide | Lat=24.97 | Lon=92.72', 'Slide No=AS/CHR/83D09/2020/6 | State=Assam | District=Cachar | Slide Name=Narainchora slide-1 | Lat=24.97 | Lon=92.72', 'Slide No=AS/CHR/83D09/2020/7 | State=Assam | District=Cachar | Slide Name=Naraichhora slide-2 | Lat=24.97 | Lon=92.72']
+label=same_physical_location | ['Slide No=AS/CAC/83H01/2018/54 | State=Assam | District=Cachar | Slide Name=Lailongchara 2 | Lat=24.97692 | Lon=93.033', 'Slide No=AS/CAC/83H01/2018/53 | State=Assam | District=Cachar | Slide Name=Lailongchara 1 | Lat=24.97714 | Lon=93.03344']
+label=same_physical_location | ['Slide No=AS/CHR/83C12/2020/5 | State=Assam | District=Cachar | Slide Name=New Jatinga slide | Lat=25.01 | Lon=92.75', 'Slide No=AS/CHR/83C12/2020/6 | State=Assam | District=Cachar | Slide Name=NH -27 slide 2 | Lat=25.01 | Lon=92.75', 'Slide No=AS/CHR/83C12/2020/7 | State=Assam | District=Cachar | Slide Name=NH -27 slide 1 | Lat=25.01 | Lon=92.75']
+label=same_physical_location | ['Slide No=AS/CHR/83C12/2020/1 | State=Assam | District=Cachar | Slide Name=Bhamai slide-1 | Lat=25.02 | Lon=92.52', 'Slide No=AS/CHR/83C12/2020/2 | State=Assam | District=Cachar | Slide Name=Bhamai slide-2 | Lat=25.02 | Lon=92.52']
+label=nearby_but_distinct | ['Slide No=AS/DIM/83C16/2018/29 | State=Assam | District=Dima Hasao | Slide Name=Bandarkhal railway slide. | Lat=25.04783 | Lon=92.78931', 'Slide No=MN/TMG/83H09/2018/001 | State=Manipur | District=Tamenglong | Slide Name=New Salem Slide | Lat=25.047833 | Lon=92.789306']
+label=same_physical_location | ['Slide No=AS/DIM/83C16/2017/24 | State=Assam | District=Dima Hasao | Slide Name=Bandarkhal8 | Lat=25.049417 | Lon=92.796722', 'Slide No=AS/DIM/83C16/2017/23 | State=Assam | District=Dima Hasao | Slide Name=Bandarkhal7 | Lat=25.049444 | Lon=92.79725']
+label=same_physical_location | ['Slide No=AS/DIM/83C16/2017/19 | State=Assam | District=Dima Hasao | Slide Name=Bandarkhal4 | Lat=25.060944 | Lon=92.80675', 'Slide No=AS/DIM/83C16/2017/17 | State=Assam | District=Dima Hasao | Slide Name=Bandarkhal2 | Lat=25.061417 | Lon=92.806833']
+label=same_physical_location | ['Slide No=AS/DIH/83G08/2020/31 | State=Assam | District=Dima Hasao | Slide Name=nan | Lat=25.1 | Lon=93.28', 'Slide No=AS/DIH/83G08/2020/32 | State=Assam | District=Dima Hasao | Slide Name=nan | Lat=25.1 | Lon=93.28', 'Slide No=AS/DIH/83G08/2020/36 | State=Assam | District=Dima Hasao | Slide Name=nan | Lat=25.1 | Lon=93.28']
+label=same_physical_location | ['Slide No=AS/DIM/83C16/2017/06 | State=Assam | District=Dima Hasao | Slide Name=Retzawl5 | Lat=25.10275 | Lon=92.986944', 'Slide No=AS/DIM/83C16/2017/07 | State=Assam | District=Dima Hasao | Slide Name=Retzawl6 | Lat=25.10292 | Lon=92.986883']
+label=nearby_but_distinct | ['Slide No=AS/DIM/83C16/2017/34 | State=Assam | District=Dima Hasao | Slide Name=Chhota Kapurchhara1 slide. | Lat=25.108877 | Lon=92.929125', 'Slide No=ASM/DH/83C16/PD/2016/49 | State=Assam | District=Dima Hasao (N.C. Hills) | Slide Name=NH 54 Ritzawl slide (1) | Lat=25.10897222 | Lon=92.92886111']
+label=nearby_but_distinct | ['Slide No=AS/DIM/83C16/2018/30 | State=Assam | District=Dima Hasao | Slide Name=Jatinga Lampur railway slide. | Lat=25.11286 | Lon=92.87756', 'Slide No=MG/EJH/2018/83CO8/01 | State=Meghalaya | District=East Jaintia Hills | Slide Name=Sonapur 4km mile stone | Lat=25.112861 | Lon=92.877556']
+label=same_physical_location | ['Slide No=ASM/DH/83G4/2016/19 | State=Assam | District=Dima Hasao | Slide Name=Jatinga-2 | Lat=25.134472 | Lon=93.018972', 'Slide No=ASM/DH/83G4/ PD/2016/19 | State=Assam | District=Dima Hasao | Slide Name=Jatinga-2 | Lat=25.13447222 | Lon=93.01897222']
+label=same_physical_location | ['Slide No=AS/DIM/83G4/2015/27 | State=Assam | District=Dima Hasao | Slide Name=Kelelo slide-1 | Lat=25.135 | Lon=93.04', 'Slide No=AS/DIM/83G4/2015/32 | State=Assam | District=Dima Hasao | Slide Name=Nutan Leikul-5 | Lat=25.135 | Lon=93.04']
+label=same_physical_location | ['Slide No=AS/DIM/83G4/2015/29 | State=Assam | District=Dima Hasao | Slide Name=NutanLeikul-2 | Lat=25.137 | Lon=93.04', 'Slide No=AS/DIM/83G4/2015/35 | State=Assam | District=Dima Hasao | Slide Name=Kelelo-3 | Lat=25.137 | Lon=93.04']
+label=same_physical_location | ['Slide No=AS/DIM/83G4/2015/56 | State=Assam | District=Dima Hasao | Slide Name=Bara Haflong | Lat=25.139 | Lon=93.025', 'Slide No=AS/DIM/83G4/2015/58 | State=Assam | District=Dima Hasao | Slide Name=Bara Haflong-3 | Lat=25.139 | Lon=93.025']
+
+========================================
+RAW REACTIVATION TEXT CHECK
+========================================
+Rows containing "reactivat": 27
+Rows containing "recurr": 2
+Rows containing initiation/first-incidence indicators: 246
+
+Up to 30 raw examples from the original History text:
+                Slide No                State                District                                Slide Name                                                                                                                                                                                                                                                                                                                                                                                                                         History
+ASM/DH/83G04/2022-23/007                Assam              Dima Hasao       Moulhoi- N. D. Raji Subsidence Zone                                                                                                                                                                                                                                                                                                                                                                 1985, 1992, 2004, 2016 and\nreactivated on 14th – 16th May 2022
+ASM/DH/83G04/2022-23/031                Assam              Dima Hasao                           Moulhoi Slide 2                                                                                                                                                                                                                                                                                                                                                                                                   2006, reactivated on May 2022
+ASM/DH/83G04/2022-23/034                Assam              Dima Hasao          G.C. Langthasa High school Slide                                                                                                                                                                                                                                                                                                                                                               First incidence: 1998\nReactivated on: 15.05.2016 and\n14.05.2022
+ ASM/DH/83G4/ PD/2016/36                Assam Dima Hasao (N.C. Hills) Haflong – Gunjung road section slide-\n07                                                                                                                                                                                                                                                                                                                                                                                                         Reactivated on May,2016
+ ASM/DH/83G4/ PD/2016/32                Assam              Dima Hasao Haflong – Gunjung road section slide-\n03                                                                                                                                                                                                                                                                                                                                                                                                         Reactivated on May 2016
+ ASM/DH/83G4/ PD/2016/34                Assam              Dima Hasao Haflong – Gunjung road section slide-\n05                                                                                                                                                                                                                                                                                                                                                                                                         Reactivated on May 2016
+   HP/KINN/53I09/2025/12     Himachal Pradesh                 Kinnaur                   Maling Nala (Left Bank) Maling Slide zone was initially\ntriggered during the year 1968\n(DDMA Kinnaur Website) after which,\nsubsequent\nreactivations have been witnessed\nduring the monsoons every damage on\n15^{th} August 2025 which was\nsubsequently\nreactivated on 21^{st} August 2025\nand a major road blockage was\nobserved on 1^{st} September 2025\n(Fig. 2, 3 & 4).\nyear. A part of left bank slope of\nMaling Nala suffered initial
+   JK/REA/43K16/2021/109 Jammu & Kashmir (UT)                   Reasi                                 Siar Baba                                                                                                                                                                                                                                                                                                                                                                                                   Initiation on 15th July, 2018
+   KER/IDK/58B16/2018/07               Kerala                  Idukki                                Cheruthoni                                                                                                                                                                                                                                                                                                                                                                                              Date of initiation:09th June, 2018
+   KER/IDK/58B16/2018/08               Kerala                  Idukki                                    Valara                                                                                                                                                                                                                                                                                                                                                        Date of initiation:03rd May, 2018, Date\nof reactivation:09th June, 2018
+   KER/IDK/58F04/2018/09               Kerala                  Idukki                                Anaviratty                                                                                                                                                                                                                                                                                                                                                                                              Date of initiation:09th June, 2018
+   KER/IDK/58F04/2018/10               Kerala                  Idukki                               Ambazhachal                                                                                                                                                                                                                                                                                                                                                                                              Date of initiation:09th June, 2018
+   KRL/PKD/58A12/2018/11               Kerala                Palakkad                    Kondanmalla subsidence                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+   KRL/PKD/58A12/2018/12               Kerala                Palakkad                 Kondanmalla subsidence II                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+   KRL/PKD/58A12/2018/17               Kerala                Palakkad                   Palavalavu colony flood                                                                                                                                                                                                                                                                                                                                                                                                         Initiated on 16/8/2018,
+  KRL/PKD/58A12/2018/183               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/184               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/185               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/186               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/187               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/188               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/189               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/190               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/191               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/192               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/193               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/194               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/195               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/196               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+  KRL/PKD/58A12/2018/197               Kerala                Palakkad                                       NaN                                                                                                                                                                                                                                                                                                                                                                                                          Initiated on 16/8/2018
+
+========================================
+REACTIVATION CLASSIFICATION
+========================================
+Classification performed directly on the original History text; date_status is not used as a detection signal.
+explicit_reactivation: 22
+initiation_plus_reactivation: 5
+recurrence: 2
+ambiguous_reactivation: 241
+no_reactivation: 35801
+
+Phrase presence checks (case-insensitive, source History only):
+reactivated on: YES (count=10)
+reactivation: YES (count=4)
+reactivated: YES (count=24)
+first incidence: YES (count=1)
+date of reactivation: NO (count=0)
+initiated on: YES (count=237)
+recurrences: YES (count=1)
+
+Total reactivation examples: 270
+category=explicit_reactivation | Slide No=ASM/DH/83G04/2022-23/007 | State=Assam | District=Dima Hasao | Slide Name=Moulhoi- N. D. Raji Subsidence Zone | date_status=multiple_dates | event_date=nan | event_date_start=nan | event_date_end=nan
+  History=1985, 1992, 2004, 2016 and
+reactivated on 14th – 16th May 2022
+
+category=explicit_reactivation | Slide No=ASM/DH/83G04/2022-23/031 | State=Assam | District=Dima Hasao | Slide Name=Moulhoi Slide 2 | date_status=multiple_dates | event_date=nan | event_date_start=nan | event_date_end=nan
+  History=2006, reactivated on May 2022
+
+category=initiation_plus_reactivation | Slide No=ASM/DH/83G04/2022-23/034 | State=Assam | District=Dima Hasao | Slide Name=G.C. Langthasa High school Slide | date_status=multiple_dates | event_date=nan | event_date_start=nan | event_date_end=nan
+  History=First incidence: 1998
+Reactivated on: 15.05.2016 and
+14.05.2022
+
+category=explicit_reactivation | Slide No=ASM/DH/83G4/ PD/2016/36 | State=Assam | District=Dima Hasao (N.C. Hills) | Slide Name=Haflong – Gunjung road section slide-
+07 | date_status=year_only | event_date=nan | event_date_start=2016 | event_date_end=2016
+  History=Reactivated on May,2016
+
+category=explicit_reactivation | Slide No=ASM/DH/83G4/ PD/2016/32 | State=Assam | District=Dima Hasao | Slide Name=Haflong – Gunjung road section slide-
+03 | date_status=month_only | event_date=nan | event_date_start=2016-05 | event_date_end=2016-05
+  History=Reactivated on May 2016
+
+category=explicit_reactivation | Slide No=ASM/DH/83G4/ PD/2016/34 | State=Assam | District=Dima Hasao | Slide Name=Haflong – Gunjung road section slide-
+05 | date_status=month_only | event_date=nan | event_date_start=2016-05 | event_date_end=2016-05
+  History=Reactivated on May 2016
+
+category=initiation_plus_reactivation | Slide No=HP/KINN/53I09/2025/12 | State=Himachal Pradesh | District=Kinnaur | Slide Name=Maling Nala (Left Bank) | date_status=approximate_date | event_date=nan | event_date_start=2025-08 | event_date_end=2025-08
+  History=Maling Slide zone was initially
+triggered during the year 1968
+(DDMA Kinnaur Website) after which,
+subsequent
+reactivations have been witnessed
+during the monsoons every damage on
+15^{th} August 2025 which was
+subsequently
+reactivated on 21^{st} August 2025
+and a major road blockage was
+observed on 1^{st} September 2025
+(Fig. 2, 3 & 4).
+year. A part of left bank slope of
+Maling Nala suffered initial
+
+category=ambiguous_reactivation | Slide No=JK/REA/43K16/2021/109 | State=Jammu & Kashmir (UT) | District=Reasi | Slide Name=Siar Baba | date_status=year_only | event_date=nan | event_date_start=2018 | event_date_end=2018
+  History=Initiation on 15th July, 2018
+
+category=ambiguous_reactivation | Slide No=KER/IDK/58B16/2018/07 | State=Kerala | District=Idukki | Slide Name=Cheruthoni | date_status=year_only | event_date=nan | event_date_start=2018 | event_date_end=2018
+  History=Date of initiation:09th June, 2018
+
+category=initiation_plus_reactivation | Slide No=KER/IDK/58B16/2018/08 | State=Kerala | District=Idukki | Slide Name=Valara | date_status=multiple_dates | event_date=nan | event_date_start=nan | event_date_end=nan
+  History=Date of initiation:03rd May, 2018, Date
+of reactivation:09th June, 2018
+
+category=ambiguous_reactivation | Slide No=KER/IDK/58F04/2018/09 | State=Kerala | District=Idukki | Slide Name=Anaviratty | date_status=year_only | event_date=nan | event_date_start=2018 | event_date_end=2018
+  History=Date of initiation:09th June, 2018
+
+category=ambiguous_reactivation | Slide No=KER/IDK/58F04/2018/10 | State=Kerala | District=Idukki | Slide Name=Ambazhachal | date_status=year_only | event_date=nan | event_date_start=2018 | event_date_end=2018
+  History=Date of initiation:09th June, 2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/11 | State=Kerala | District=Palakkad | Slide Name=Kondanmalla subsidence | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/12 | State=Kerala | District=Palakkad | Slide Name=Kondanmalla subsidence II | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/17 | State=Kerala | District=Palakkad | Slide Name=Palavalavu colony flood | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018,
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/183 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/184 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/185 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/186 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/187 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/188 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/189 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/190 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/191 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/192 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/193 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/194 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/195 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/196 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+category=ambiguous_reactivation | Slide No=KRL/PKD/58A12/2018/197 | State=Kerala | District=Palakkad | Slide Name=nan | date_status=exact_date | event_date=2018-08-16 | event_date_start=2018-08-16 | event_date_end=2018-08-16
+  History=Initiated on 16/8/2018
+
+
+========================================
+EVENT ID RECOMMENDATION
+========================================
+physical_location_id:
+- Use validated coordinate clusters (exact coordinate groups and small-threshold nearby coordinate neighborhoods) as the core evidence for a physical location identifier.
+- Constrain clusters using state/district consistency and slide-name similarity.
+- Use Slide No only as supporting metadata, never as the sole physical-location key.
+occurrence_id:
+- Build occurrence identity from physical_location_id + reliable event date/date range + occurrence/reactivation context from History.
+- Keep occurrence-level records distinct from physical-location grouping so reactivations are not forced into duplicate or separate landslide records prematurely.
+
+========================================
+ML LEAKAGE WARNING
+========================================
+- If records sharing the same coordinates or physical location appear in different train/validation/test splits, spatial leakage can occur.
+- If reactivation records from the same landslide location are split across multiple folds, temporal leakage can occur.
+- Reused Slide No values should not be treated as event-grouping identifiers because the same Slide No can span multiple locations.
+- The eventual split strategy should group by physical_location_id first, then preserve occurrence-level differences within each group.
+
+========================================
+MODULE 4 CORRECTED VERIFICATION
+========================================
+Total records: 36071
+Exact duplicate rows: 0
+Duplicate Sl.No rows: 0
+Unique Sl.No: 36071
+Duplicate Slide No rows: 559
+Unique Slide No: 35716
+Duplicate Slide No groups: 205
+Groups spanning multiple states: 87
+Groups spanning multiple districts: 97
+Groups spanning different coordinates: 179
+Groups spanning different slide names: 120
+Exact duplicate coordinate pairs: 1254
+Coordinate pairs shared by multiple Slide No: 1230
+Coordinate pairs with different dates: 123
+Records with missing coordinates: 1
+Raw rows containing reactivation: 27
+Explicit reactivation: 22
+Initiation + reactivation: 5
+Recurrence: 2
+Ambiguous reactivation: 241
+Total reactivation examples: 270
+
+========================================
+MODULE 4 STATUS
+========================================
+PASS

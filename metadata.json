@@ -1,0 +1,6 @@
+{
+  "name": "SIH26001 Landslide Early Warning System",
+  "description": "AI-based early warning and landslide risk monitoring system for the North Eastern Region of India (SIH26001), integrating historical landslide audits, spatial boundaries, and risk prediction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
