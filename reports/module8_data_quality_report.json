@@ -1,0 +1,26 @@
+{
+  "dataset": "GSI Landslide Inventory (Positive Samples)",
+  "total_positive_samples": 13674,
+  "samples_with_exact_event_date": 4611,
+  "samples_with_invalid_or_missing_date": 9063,
+  "samples_with_coordinates": 13674,
+  "samples_within_ner_boundary": 6140,
+  "samples_outside_ner_boundary": 7534,
+  "future_dated_records_preserved": 1,
+  "soil_moisture_samples_available": 0,
+  "soil_moisture_status": "No real sensor/reanalysis soil moisture dataset in project; kept optional/unfabricated",
+  "sample_dem_elevation_coverage_current_tile": 281,
+  "exclusions_summary": {
+    "missing_or_inexact_date": 9063,
+    "future_event_date_2028_08_16": 1,
+    "coordinates_outside_ner_boundary": 7534,
+    "soil_moisture_no_source": 13674
+  },
+  "pipeline_rules_enforced": [
+    "Zero temporal leakage: precipitation occurring after event timestamp is strictly excluded",
+    "Missing rainfall values are preserved as NaN and never converted to 0",
+    "Background samples do not receive synthetic/fabricated event dates",
+    "Future record (2028-08-16) rainfall marked unavailable due to temporal coverage limit",
+    "Copernicus DEM GLO-30 30m resolution used for elevation and Horn's slope formula"
+  ]
+}

@@ -110,7 +110,7 @@ export const PredictorView: React.FC = () => {
               Landslide Susceptibility & Early Warning Assessment
             </h2>
             <p className="text-sm text-slate-300 mt-1 max-w-3xl">
-              Evaluates landslide probability $P(\text{landslide}=1)$ from antecedent rainfall aggregations (Copernicus ERA5-Land), terrain slope, and elevation (Copernicus DEM GLO-30) following strict zero-temporal-leakage protocols.
+              Evaluates landslide probability P(landslide = 1) from antecedent rainfall aggregations (Copernicus ERA5-Land), terrain slope, and elevation (Copernicus DEM GLO-30) following strict zero-temporal-leakage protocols.
             </p>
           </div>
 

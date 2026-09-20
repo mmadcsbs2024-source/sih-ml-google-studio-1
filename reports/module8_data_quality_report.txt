@@ -1,0 +1,17 @@
+MODULE 8: ENVIRONMENTAL FEATURE EXTRACTION DATA QUALITY REPORT
+=================================================================
+
+Total Positive Samples:                 13674
+Samples with Exact Event Date:          4611
+Samples with Invalid / Missing Date:    9063
+Samples with Coordinates:               13674
+Samples within NER Region Boundary:     6140
+Samples outside NER Region Boundary:    7534
+Future-Dated Records (Preserved):       1 (Sl.No. 14215: 2028-08-16)
+Soil Moisture Samples Available:        0 (No real source available; no synthetic data created)
+
+EXCLUSION REASONS BREAKDOWN:
+- Missing or inexact event date:        9063 records (rainfall cannot be time-indexed)
+- Out-of-bounds geographic location:    7534 records (outside NER latitude/longitude box)
+- Future event date:                    1 record (ERA5 coverage unavailable for 2028)
+- Soil moisture missing:                All records (soil_moisture kept NaN/optional without fabrication)

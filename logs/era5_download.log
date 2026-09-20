@@ -1,0 +1,586 @@
+============================================================
+ERA5-LAND AUTOMATED DOWNLOADER — SIH26001
+Spatial Extent: North=29.5, South=21.8, West=88.0, East=97.5
+Target Directory: data/external/era5_land
+============================================================
+Total months to process: 117
+
+[1/117] Checking 2007-06 (June)...
+
+--> Requesting 2007-06 (June 2007) [Attempt 1/3]...
+2026-09-20 11:58:09,072 INFO Request ID is 7d247bee-3333-42eb-81de-7ab36824ec29
+2026-09-20 11:58:09,395 INFO status has been updated to successful
+69fb4e304c296d3f3fb6473df42e0e08.nc:   0%|          | 0.00/13.3M [00:00<?, ?B/s]69fb4e304c296d3f3fb6473df42e0e08.nc:   8%|▊         | 1.00M/13.3M [00:02<00:32, 392kB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  15%|█▌        | 2.00M/13.3M [00:02<00:14, 825kB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  23%|██▎       | 3.00M/13.3M [00:03<00:08, 1.30MB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  38%|███▊      | 5.00M/13.3M [00:03<00:03, 2.34MB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  53%|█████▎    | 7.00M/13.3M [00:03<00:01, 3.51MB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  60%|██████    | 8.00M/13.3M [00:04<00:01, 3.53MB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  68%|██████▊   | 9.00M/13.3M [00:04<00:01, 3.51MB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  83%|████████▎ | 11.0M/13.3M [00:04<00:00, 4.49MB/s]69fb4e304c296d3f3fb6473df42e0e08.nc:  98%|█████████▊| 13.0M/13.3M [00:04<00:00, 5.32MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2007_06.nc (13.29 MB)
+[2/117] Checking 2007-07 (July)...
+
+--> Requesting 2007-07 (July 2007) [Attempt 1/3]...
+2026-09-20 11:58:17,536 INFO Request ID is 850d950d-ed84-4a5f-8e19-ce8268038e78
+2026-09-20 11:58:17,853 INFO status has been updated to successful
+672d9d1d263bcb4759e596484ca0f26d.nc:   0%|          | 0.00/14.3M [00:00<?, ?B/s]672d9d1d263bcb4759e596484ca0f26d.nc:   7%|▋         | 1.00M/14.3M [00:02<00:39, 358kB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  14%|█▍        | 2.00M/14.3M [00:03<00:21, 610kB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  21%|██        | 3.00M/14.3M [00:04<00:13, 855kB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  28%|██▊       | 4.00M/14.3M [00:05<00:11, 982kB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  35%|███▍      | 5.00M/14.3M [00:05<00:08, 1.15MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  42%|████▏     | 6.00M/14.3M [00:06<00:06, 1.31MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  49%|████▉     | 7.00M/14.3M [00:07<00:05, 1.30MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  56%|█████▌    | 8.00M/14.3M [00:07<00:04, 1.40MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  63%|██████▎   | 9.00M/14.3M [00:08<00:03, 1.50MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  70%|██████▉   | 10.0M/14.3M [00:09<00:03, 1.43MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  77%|███████▋  | 11.0M/14.3M [00:10<00:02, 1.35MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  84%|████████▎ | 12.0M/14.3M [00:11<00:01, 1.30MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  91%|█████████ | 13.0M/14.3M [00:12<00:01, 1.16MB/s]672d9d1d263bcb4759e596484ca0f26d.nc:  98%|█████████▊| 14.0M/14.3M [00:13<00:00, 1.17MB/s]672d9d1d263bcb4759e596484ca0f26d.nc: 100%|██████████| 14.3M/14.3M [00:13<00:00, 1.17MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2007_07.nc (14.33 MB)
+[3/117] Checking 2007-08 (August)...
+
+--> Requesting 2007-08 (August 2007) [Attempt 1/3]...
+2026-09-20 11:58:35,868 INFO Request ID is 857f6b06-1c8e-499c-ad70-db5d7310f453
+2026-09-20 11:58:36,173 INFO status has been updated to successful
+b8e506165c4fcf9a90ee7f1e81f9db17.nc:   0%|          | 0.00/13.8M [00:00<?, ?B/s]b8e506165c4fcf9a90ee7f1e81f9db17.nc:   7%|▋         | 1.00M/13.8M [00:02<00:34, 388kB/s]b8e506165c4fcf9a90ee7f1e81f9db17.nc:  15%|█▍        | 2.00M/13.8M [00:02<00:15, 816kB/s]b8e506165c4fcf9a90ee7f1e81f9db17.nc:  22%|██▏       | 3.00M/13.8M [00:03<00:08, 1.29MB/s]b8e506165c4fcf9a90ee7f1e81f9db17.nc:  44%|████▎     | 6.00M/13.8M [00:03<00:02, 3.07MB/s]b8e506165c4fcf9a90ee7f1e81f9db17.nc:  58%|█████▊    | 8.00M/13.8M [00:03<00:01, 3.95MB/s]b8e506165c4fcf9a90ee7f1e81f9db17.nc:  80%|███████▉  | 11.0M/13.8M [00:04<00:00, 5.52MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2007_08.nc (13.77 MB)
+[4/117] Checking 2007-09 (September)...
+
+--> Requesting 2007-09 (September 2007) [Attempt 1/3]...
+2026-09-20 11:58:44,956 INFO Request ID is 9015d908-6fcb-4bf5-87e3-2d516dee2306
+2026-09-20 11:58:45,283 INFO status has been updated to successful
+974a609e4a5e42134c1749abaa7060a6.nc:   0%|          | 0.00/12.2M [00:00<?, ?B/s]974a609e4a5e42134c1749abaa7060a6.nc:   8%|▊         | 1.00M/12.2M [00:02<00:30, 389kB/s]974a609e4a5e42134c1749abaa7060a6.nc:  16%|█▋        | 2.00M/12.2M [00:02<00:13, 819kB/s]974a609e4a5e42134c1749abaa7060a6.nc:  25%|██▍       | 3.00M/12.2M [00:03<00:07, 1.30MB/s]974a609e4a5e42134c1749abaa7060a6.nc:  49%|████▉     | 6.00M/12.2M [00:03<00:02, 3.10MB/s]974a609e4a5e42134c1749abaa7060a6.nc:  74%|███████▍  | 9.00M/12.2M [00:03<00:00, 4.73MB/s]974a609e4a5e42134c1749abaa7060a6.nc:  90%|█████████ | 11.0M/12.2M [00:04<00:00, 5.33MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2007_09.nc (12.19 MB)
+[5/117] Checking 2008-06 (June)...
+
+--> Requesting 2008-06 (June 2008) [Attempt 1/3]...
+2026-09-20 11:58:52,037 INFO Request ID is 31a5755b-3def-43c5-a6a3-bc422bbd1e6f
+2026-09-20 11:58:52,346 INFO status has been updated to successful
+ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:   0%|          | 0.00/13.8M [00:00<?, ?B/s]ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:   7%|▋         | 1.00M/13.8M [00:02<00:34, 392kB/s]ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:  14%|█▍        | 2.00M/13.8M [00:02<00:15, 824kB/s]ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:  22%|██▏       | 3.00M/13.8M [00:03<00:08, 1.30MB/s]ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:  43%|████▎     | 6.00M/13.8M [00:03<00:02, 3.10MB/s]ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:  58%|█████▊    | 8.00M/13.8M [00:03<00:01, 3.99MB/s]ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:  80%|███████▉  | 11.0M/13.8M [00:04<00:00, 5.59MB/s]ae84fb3cce5fe9a5b9c9b33fb9c4ebd1.nc:  94%|█████████▍| 13.0M/13.8M [00:04<00:00, 5.80MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2008_06.nc (13.83 MB)
+[6/117] Checking 2008-07 (July)...
+
+--> Requesting 2008-07 (July 2008) [Attempt 1/3]...
+2026-09-20 11:58:59,106 INFO Request ID is 459ce08c-17f8-4c2c-a5cd-2cfed4da1244
+2026-09-20 11:58:59,413 INFO status has been updated to successful
+8a26d11bf1f4bcda0c6524203c378fc2.nc:   0%|          | 0.00/14.3M [00:00<?, ?B/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:   7%|▋         | 1.00M/14.3M [00:04<00:54, 256kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  14%|█▍        | 2.00M/14.3M [00:06<00:36, 358kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  21%|██        | 3.00M/14.3M [00:08<00:28, 417kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  28%|██▊       | 4.00M/14.3M [00:10<00:23, 457kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  35%|███▍      | 5.00M/14.3M [00:11<00:18, 520kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  42%|████▏     | 6.00M/14.3M [00:13<00:15, 575kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  49%|████▉     | 7.00M/14.3M [00:14<00:12, 593kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  56%|█████▌    | 8.00M/14.3M [00:16<00:10, 619kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  63%|██████▎   | 9.00M/14.3M [00:17<00:08, 648kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  70%|██████▉   | 10.0M/14.3M [00:19<00:06, 669kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  77%|███████▋  | 11.0M/14.3M [00:20<00:05, 682kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  84%|████████▍ | 12.0M/14.3M [00:22<00:03, 632kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  91%|█████████ | 13.0M/14.3M [00:24<00:02, 647kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc:  98%|█████████▊| 14.0M/14.3M [00:25<00:00, 668kB/s]8a26d11bf1f4bcda0c6524203c378fc2.nc: 100%|██████████| 14.3M/14.3M [00:26<00:00, 658kB/s]                                                                                            SUCCESS: Saved and validated era5_land_2008_07.nc (14.32 MB)
+[7/117] Checking 2008-08 (August)...
+
+--> Requesting 2008-08 (August 2008) [Attempt 1/3]...
+2026-09-20 11:59:29,259 INFO Request ID is 208d1bc8-c3f7-465c-90d7-101934797a31
+2026-09-20 11:59:29,566 INFO status has been updated to successful
+2385b00846b08b2cbe42e1de3755ee9e.nc:   0%|          | 0.00/16.0M [00:00<?, ?B/s]2385b00846b08b2cbe42e1de3755ee9e.nc:   6%|▋         | 1.00M/16.0M [00:02<00:40, 385kB/s]2385b00846b08b2cbe42e1de3755ee9e.nc:  13%|█▎        | 2.00M/16.0M [00:03<00:18, 812kB/s]2385b00846b08b2cbe42e1de3755ee9e.nc:  19%|█▉        | 3.00M/16.0M [00:03<00:10, 1.32MB/s]2385b00846b08b2cbe42e1de3755ee9e.nc:  38%|███▊      | 6.00M/16.0M [00:03<00:03, 3.13MB/s]2385b00846b08b2cbe42e1de3755ee9e.nc:  56%|█████▋    | 9.00M/16.0M [00:03<00:01, 4.54MB/s]2385b00846b08b2cbe42e1de3755ee9e.nc:  69%|██████▉   | 11.0M/16.0M [00:04<00:00, 5.48MB/s]2385b00846b08b2cbe42e1de3755ee9e.nc:  88%|████████▊ | 14.0M/16.0M [00:04<00:00, 6.83MB/s]2385b00846b08b2cbe42e1de3755ee9e.nc: 100%|██████████| 16.0M/16.0M [00:04<00:00, 6.39MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2008_08.nc (15.95 MB)
+[8/117] Checking 2008-12 (December)...
+
+--> Requesting 2008-12 (December 2008) [Attempt 1/3]...
+2026-09-20 11:59:36,715 INFO Request ID is 21f5c394-0b7b-4fcb-8851-e196b5b4ebc3
+2026-09-20 11:59:37,026 INFO status has been updated to successful
+f5f7ae6032bcbe706980a87ad9fe693c.nc:   0%|          | 0.00/6.95M [00:00<?, ?B/s]f5f7ae6032bcbe706980a87ad9fe693c.nc:  14%|█▍        | 1.00M/6.95M [00:02<00:16, 388kB/s]f5f7ae6032bcbe706980a87ad9fe693c.nc:  29%|██▉       | 2.00M/6.95M [00:02<00:06, 816kB/s]f5f7ae6032bcbe706980a87ad9fe693c.nc:  43%|████▎     | 3.00M/6.95M [00:03<00:03, 1.30MB/s]f5f7ae6032bcbe706980a87ad9fe693c.nc:  86%|████████▋ | 6.00M/6.95M [00:03<00:00, 3.10MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2008_12.nc (6.95 MB)
+[9/117] Checking 2009-05 (May)...
+
+--> Requesting 2009-05 (May 2009) [Attempt 1/3]...
+2026-09-20 11:59:42,866 INFO Request ID is 46519222-275a-4a4b-83f9-3b50ca53eb26
+2026-09-20 11:59:43,177 INFO status has been updated to successful
+900bee32808b0ac9213b240dd9f3c361.nc:   0%|          | 0.00/12.0M [00:00<?, ?B/s]900bee32808b0ac9213b240dd9f3c361.nc:   8%|▊         | 1.00M/12.0M [00:02<00:29, 394kB/s]900bee32808b0ac9213b240dd9f3c361.nc:  17%|█▋        | 2.00M/12.0M [00:02<00:12, 828kB/s]900bee32808b0ac9213b240dd9f3c361.nc:  25%|██▌       | 3.00M/12.0M [00:03<00:07, 1.31MB/s]900bee32808b0ac9213b240dd9f3c361.nc:  50%|█████     | 6.00M/12.0M [00:03<00:02, 3.13MB/s]900bee32808b0ac9213b240dd9f3c361.nc:  75%|███████▌  | 9.00M/12.0M [00:03<00:00, 4.68MB/s]900bee32808b0ac9213b240dd9f3c361.nc: 100%|██████████| 12.0M/12.0M [00:04<00:00, 6.07MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2009_05.nc (11.97 MB)
+[10/117] Checking 2009-06 (June)...
+
+--> Requesting 2009-06 (June 2009) [Attempt 1/3]...
+2026-09-20 11:59:49,651 INFO Request ID is ecd44b69-5bdb-4843-ba0c-f681ef968b2e
+2026-09-20 11:59:49,956 INFO status has been updated to successful
+2267085da116662aa003ff43819e5088.nc:   0%|          | 0.00/12.9M [00:00<?, ?B/s]2267085da116662aa003ff43819e5088.nc:   8%|▊         | 1.00M/12.9M [00:02<00:32, 387kB/s]2267085da116662aa003ff43819e5088.nc:  16%|█▌        | 2.00M/12.9M [00:03<00:14, 814kB/s]2267085da116662aa003ff43819e5088.nc:  23%|██▎       | 3.00M/12.9M [00:03<00:07, 1.30MB/s]2267085da116662aa003ff43819e5088.nc:  47%|████▋     | 6.00M/12.9M [00:03<00:02, 3.00MB/s]2267085da116662aa003ff43819e5088.nc:  70%|██████▉   | 9.00M/12.9M [00:03<00:00, 4.62MB/s]2267085da116662aa003ff43819e5088.nc:  93%|█████████▎| 12.0M/12.9M [00:04<00:00, 6.02MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2009_06.nc (12.90 MB)
+[11/117] Checking 2009-07 (July)...
+
+--> Requesting 2009-07 (July 2009) [Attempt 1/3]...
+2026-09-20 11:59:58,649 INFO Request ID is a24c84ab-1998-47b3-92fe-56841c45a64e
+2026-09-20 12:00:00,018 INFO status has been updated to successful
+b8ea7249e12081547791239ecc63bc03.nc:   0%|          | 0.00/14.0M [00:00<?, ?B/s]b8ea7249e12081547791239ecc63bc03.nc:   7%|▋         | 1.00M/14.0M [00:02<00:35, 383kB/s]b8ea7249e12081547791239ecc63bc03.nc:  14%|█▍        | 2.00M/14.0M [00:03<00:15, 803kB/s]b8ea7249e12081547791239ecc63bc03.nc:  21%|██▏       | 3.00M/14.0M [00:03<00:08, 1.32MB/s]b8ea7249e12081547791239ecc63bc03.nc:  29%|██▊       | 4.00M/14.0M [00:03<00:05, 1.99MB/s]b8ea7249e12081547791239ecc63bc03.nc:  43%|████▎     | 6.00M/14.0M [00:03<00:02, 3.57MB/s]b8ea7249e12081547791239ecc63bc03.nc:  50%|█████     | 7.00M/14.0M [00:03<00:01, 4.25MB/s]b8ea7249e12081547791239ecc63bc03.nc:  57%|█████▋    | 8.00M/14.0M [00:03<00:01, 4.69MB/s]b8ea7249e12081547791239ecc63bc03.nc:  72%|███████▏  | 10.0M/14.0M [00:03<00:00, 6.86MB/s]b8ea7249e12081547791239ecc63bc03.nc:  79%|███████▊  | 11.0M/14.0M [00:04<00:00, 6.75MB/s]b8ea7249e12081547791239ecc63bc03.nc:  86%|████████▌ | 12.0M/14.0M [00:04<00:00, 7.38MB/s]b8ea7249e12081547791239ecc63bc03.nc: 100%|██████████| 14.0M/14.0M [00:04<00:00, 8.38MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2009_07.nc (13.97 MB)
+[12/117] Checking 2009-08 (August)...
+
+--> Requesting 2009-08 (August 2009) [Attempt 1/3]...
+2026-09-20 12:00:13,240 INFO Request ID is 6fe48447-b8bd-46b5-a7c9-dbfeaefcc400
+2026-09-20 12:00:13,545 INFO status has been updated to successful
+aa220e37d3f9f589bf4f93ba5777f2d7.nc:   0%|          | 0.00/15.7M [00:00<?, ?B/s]aa220e37d3f9f589bf4f93ba5777f2d7.nc:   6%|▋         | 1.00M/15.7M [00:02<00:39, 389kB/s]aa220e37d3f9f589bf4f93ba5777f2d7.nc:  13%|█▎        | 2.00M/15.7M [00:02<00:17, 819kB/s]aa220e37d3f9f589bf4f93ba5777f2d7.nc:  19%|█▉        | 3.00M/15.7M [00:03<00:10, 1.31MB/s]aa220e37d3f9f589bf4f93ba5777f2d7.nc:  38%|███▊      | 6.00M/15.7M [00:03<00:03, 3.12MB/s]aa220e37d3f9f589bf4f93ba5777f2d7.nc:  51%|█████     | 8.00M/15.7M [00:03<00:02, 4.01MB/s]aa220e37d3f9f589bf4f93ba5777f2d7.nc:  70%|██████▉   | 11.0M/15.7M [00:04<00:00, 5.60MB/s]aa220e37d3f9f589bf4f93ba5777f2d7.nc:  89%|████████▉ | 14.0M/15.7M [00:04<00:00, 6.60MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2009_08.nc (15.72 MB)
+[13/117] Checking 2010-03 (March)...
+
+--> Requesting 2010-03 (March 2010) [Attempt 1/3]...
+2026-09-20 12:00:24,308 INFO Request ID is 8a5b3f9f-78e9-4a53-b491-5bec50e2d090
+2026-09-20 12:00:24,621 INFO status has been updated to successful
+eb5f4bbedd5c140d4201f5a273aedfa1.nc:   0%|          | 0.00/7.24M [00:00<?, ?B/s]eb5f4bbedd5c140d4201f5a273aedfa1.nc:  14%|█▍        | 1.00M/7.24M [00:02<00:16, 386kB/s]eb5f4bbedd5c140d4201f5a273aedfa1.nc:  28%|██▊       | 2.00M/7.24M [00:03<00:06, 812kB/s]eb5f4bbedd5c140d4201f5a273aedfa1.nc:  41%|████▏     | 3.00M/7.24M [00:03<00:03, 1.30MB/s]eb5f4bbedd5c140d4201f5a273aedfa1.nc:  83%|████████▎ | 6.00M/7.24M [00:03<00:00, 3.11MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2010_03.nc (7.24 MB)
+[14/117] Checking 2010-04 (April)...
+
+--> Requesting 2010-04 (April 2010) [Attempt 1/3]...
+2026-09-20 12:00:30,657 INFO Request ID is 4ec4d338-126c-4de8-a72c-1abe6b26760e
+2026-09-20 12:00:30,961 INFO status has been updated to successful
+3d375d501dec242ddf4d64f60d4425b3.nc:   0%|          | 0.00/9.65M [00:00<?, ?B/s]3d375d501dec242ddf4d64f60d4425b3.nc:  10%|█         | 1.00M/9.65M [00:02<00:23, 386kB/s]3d375d501dec242ddf4d64f60d4425b3.nc:  21%|██        | 2.00M/9.65M [00:03<00:09, 812kB/s]3d375d501dec242ddf4d64f60d4425b3.nc:  31%|███       | 3.00M/9.65M [00:03<00:05, 1.30MB/s]3d375d501dec242ddf4d64f60d4425b3.nc:  62%|██████▏   | 6.00M/9.65M [00:03<00:01, 3.09MB/s]3d375d501dec242ddf4d64f60d4425b3.nc:  83%|████████▎ | 8.00M/9.65M [00:03<00:00, 3.98MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2010_04.nc (9.65 MB)
+[15/117] Checking 2010-05 (May)...
+
+--> Requesting 2010-05 (May 2010) [Attempt 1/3]...
+2026-09-20 12:00:40,200 INFO Request ID is 064de14e-0e03-434f-89c9-38e9b88e0ab9
+2026-09-20 12:00:40,517 INFO status has been updated to successful
+51f1b9c2be868145b04092e0ae249e40.nc:   0%|          | 0.00/12.1M [00:00<?, ?B/s]51f1b9c2be868145b04092e0ae249e40.nc:   8%|▊         | 1.00M/12.1M [00:02<00:30, 389kB/s]51f1b9c2be868145b04092e0ae249e40.nc:  16%|█▋        | 2.00M/12.1M [00:02<00:12, 820kB/s]51f1b9c2be868145b04092e0ae249e40.nc:  25%|██▍       | 3.00M/12.1M [00:03<00:07, 1.31MB/s]51f1b9c2be868145b04092e0ae249e40.nc:  49%|████▉     | 6.00M/12.1M [00:03<00:02, 3.11MB/s]51f1b9c2be868145b04092e0ae249e40.nc:  74%|███████▍  | 9.00M/12.1M [00:03<00:00, 4.61MB/s]51f1b9c2be868145b04092e0ae249e40.nc:  99%|█████████▉| 12.0M/12.1M [00:04<00:00, 6.02MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2010_05.nc (12.14 MB)
+[16/117] Checking 2010-06 (June)...
+
+--> Requesting 2010-06 (June 2010) [Attempt 1/3]...
+2026-09-20 12:00:52,152 INFO Request ID is 9170fe96-ad9f-4682-98eb-921c2f5c0a51
+2026-09-20 12:00:52,456 INFO status has been updated to successful
+53acdee2c42b85147c3f5bb8c83e3444.nc:   0%|          | 0.00/13.5M [00:00<?, ?B/s]53acdee2c42b85147c3f5bb8c83e3444.nc:   7%|▋         | 1.00M/13.5M [00:02<00:33, 393kB/s]53acdee2c42b85147c3f5bb8c83e3444.nc:  15%|█▍        | 2.00M/13.5M [00:02<00:14, 827kB/s]53acdee2c42b85147c3f5bb8c83e3444.nc:  22%|██▏       | 3.00M/13.5M [00:03<00:08, 1.31MB/s]53acdee2c42b85147c3f5bb8c83e3444.nc:  44%|████▍     | 6.00M/13.5M [00:03<00:02, 3.10MB/s]53acdee2c42b85147c3f5bb8c83e3444.nc:  59%|█████▉    | 8.00M/13.5M [00:03<00:01, 4.02MB/s]53acdee2c42b85147c3f5bb8c83e3444.nc:  81%|████████  | 11.0M/13.5M [00:04<00:00, 5.63MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2010_06.nc (13.55 MB)
+[17/117] Checking 2010-08 (August)...
+
+--> Requesting 2010-08 (August 2010) [Attempt 1/3]...
+2026-09-20 12:00:59,504 INFO Request ID is 363c54df-1eca-417b-9785-07debf229a96
+2026-09-20 12:01:00,526 INFO status has been updated to successful
+b0eaccf36078041ff7e65791eaefd139.nc:   0%|          | 0.00/14.0M [00:00<?, ?B/s]b0eaccf36078041ff7e65791eaefd139.nc:   7%|▋         | 1.00M/14.0M [00:02<00:35, 381kB/s]b0eaccf36078041ff7e65791eaefd139.nc:  14%|█▍        | 2.00M/14.0M [00:03<00:15, 802kB/s]b0eaccf36078041ff7e65791eaefd139.nc:  21%|██▏       | 3.00M/14.0M [00:03<00:08, 1.29MB/s]b0eaccf36078041ff7e65791eaefd139.nc:  43%|████▎     | 6.00M/14.0M [00:03<00:02, 3.09MB/s]b0eaccf36078041ff7e65791eaefd139.nc:  64%|██████▍   | 9.00M/14.0M [00:03<00:01, 4.71MB/s]b0eaccf36078041ff7e65791eaefd139.nc:  86%|████████▌ | 12.0M/14.0M [00:04<00:00, 6.09MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2010_08.nc (14.03 MB)
+[18/117] Checking 2010-09 (September)...
+
+--> Requesting 2010-09 (September 2010) [Attempt 1/3]...
+2026-09-20 12:01:10,792 INFO Request ID is 7789b313-a4da-4f89-8d48-23da195bb831
+2026-09-20 12:01:11,108 INFO status has been updated to successful
+d3e5833023f31aa6d642af16ad0b0436.nc:   0%|          | 0.00/13.0M [00:00<?, ?B/s]d3e5833023f31aa6d642af16ad0b0436.nc:   8%|▊         | 1.00M/13.0M [00:02<00:32, 385kB/s]d3e5833023f31aa6d642af16ad0b0436.nc:  15%|█▌        | 2.00M/13.0M [00:03<00:14, 810kB/s]d3e5833023f31aa6d642af16ad0b0436.nc:  23%|██▎       | 3.00M/13.0M [00:03<00:08, 1.30MB/s]d3e5833023f31aa6d642af16ad0b0436.nc:  46%|████▋     | 6.00M/13.0M [00:03<00:02, 3.11MB/s]d3e5833023f31aa6d642af16ad0b0436.nc:  69%|██████▉   | 9.00M/13.0M [00:03<00:00, 4.74MB/s]d3e5833023f31aa6d642af16ad0b0436.nc:  85%|████████▍ | 11.0M/13.0M [00:04<00:00, 5.31MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2010_09.nc (12.97 MB)
+[19/117] Checking 2010-10 (October)...
+
+--> Requesting 2010-10 (October 2010) [Attempt 1/3]...
+2026-09-20 12:01:17,732 INFO Request ID is 31b7dfa4-e250-448e-8d47-e0a25b6ba7a4
+2026-09-20 12:01:18,077 INFO status has been updated to successful
+4a4a2f75ca51e17f8e966e1caa8a0801.nc:   0%|          | 0.00/11.4M [00:00<?, ?B/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:   9%|▉         | 1.00M/11.4M [00:02<00:28, 388kB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  18%|█▊        | 2.00M/11.4M [00:02<00:12, 816kB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  26%|██▋       | 3.00M/11.4M [00:03<00:07, 1.25MB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  44%|████▍     | 5.00M/11.4M [00:03<00:02, 2.35MB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  53%|█████▎    | 6.00M/11.4M [00:03<00:02, 2.61MB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  61%|██████▏   | 7.00M/11.4M [00:04<00:01, 2.82MB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  70%|███████   | 8.00M/11.4M [00:04<00:01, 3.01MB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  88%|████████▊ | 10.0M/11.4M [00:04<00:00, 4.07MB/s]4a4a2f75ca51e17f8e966e1caa8a0801.nc:  97%|█████████▋| 11.0M/11.4M [00:05<00:00, 3.95MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2010_10.nc (11.39 MB)
+[20/117] Checking 2011-03 (March)...
+
+--> Requesting 2011-03 (March 2011) [Attempt 1/3]...
+2026-09-20 12:01:27,068 INFO Request ID is f71f71a3-9265-4f5d-bf4b-db4c7baac9a9
+2026-09-20 12:01:27,385 INFO status has been updated to successful
+a56a6fd2e84ddd0182a440df81baac82.nc:   0%|          | 0.00/8.18M [00:00<?, ?B/s]a56a6fd2e84ddd0182a440df81baac82.nc:  12%|█▏        | 1.00M/8.18M [00:02<00:19, 385kB/s]a56a6fd2e84ddd0182a440df81baac82.nc:  24%|██▍       | 2.00M/8.18M [00:03<00:07, 810kB/s]a56a6fd2e84ddd0182a440df81baac82.nc:  37%|███▋      | 3.00M/8.18M [00:03<00:04, 1.29MB/s]a56a6fd2e84ddd0182a440df81baac82.nc:  61%|██████    | 5.00M/8.18M [00:03<00:01, 2.31MB/s]a56a6fd2e84ddd0182a440df81baac82.nc:  98%|█████████▊| 8.00M/8.18M [00:03<00:00, 4.03MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2011_03.nc (8.18 MB)
+[21/117] Checking 2011-05 (May)...
+
+--> Requesting 2011-05 (May 2011) [Attempt 1/3]...
+2026-09-20 12:01:33,813 INFO Request ID is c4e70ef9-a1ca-45e9-aad1-77e83a6d5efa
+2026-09-20 12:01:34,119 INFO status has been updated to successful
+eb4d6840a5dfbde8d271e446041ed496.nc:   0%|          | 0.00/12.9M [00:00<?, ?B/s]eb4d6840a5dfbde8d271e446041ed496.nc:   8%|▊         | 1.00M/12.9M [00:02<00:32, 388kB/s]eb4d6840a5dfbde8d271e446041ed496.nc:  16%|█▌        | 2.00M/12.9M [00:02<00:13, 816kB/s]eb4d6840a5dfbde8d271e446041ed496.nc:  23%|██▎       | 3.00M/12.9M [00:03<00:07, 1.30MB/s]eb4d6840a5dfbde8d271e446041ed496.nc:  47%|████▋     | 6.00M/12.9M [00:03<00:02, 3.10MB/s]eb4d6840a5dfbde8d271e446041ed496.nc:  62%|██████▏   | 8.00M/12.9M [00:03<00:01, 3.97MB/s]eb4d6840a5dfbde8d271e446041ed496.nc:  86%|████████▌ | 11.0M/12.9M [00:04<00:00, 5.51MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2011_05.nc (12.85 MB)
+[22/117] Checking 2011-06 (June)...
+
+--> Requesting 2011-06 (June 2011) [Attempt 1/3]...
+2026-09-20 12:01:41,297 INFO Request ID is 70ef452a-1893-418c-84dd-cba25773e41f
+2026-09-20 12:01:43,266 INFO status has been updated to successful
+5b31b22164256e3699ec88b81b03ca1d.nc:   0%|          | 0.00/13.5M [00:00<?, ?B/s]5b31b22164256e3699ec88b81b03ca1d.nc:   7%|▋         | 1.00M/13.5M [00:02<00:34, 385kB/s]5b31b22164256e3699ec88b81b03ca1d.nc:  15%|█▍        | 2.00M/13.5M [00:03<00:14, 809kB/s]5b31b22164256e3699ec88b81b03ca1d.nc:  22%|██▏       | 3.00M/13.5M [00:03<00:08, 1.29MB/s]5b31b22164256e3699ec88b81b03ca1d.nc:  44%|████▍     | 6.00M/13.5M [00:03<00:02, 3.08MB/s]5b31b22164256e3699ec88b81b03ca1d.nc:  59%|█████▉    | 8.00M/13.5M [00:03<00:01, 3.94MB/s]5b31b22164256e3699ec88b81b03ca1d.nc:  67%|██████▋   | 9.00M/13.5M [00:04<00:01, 3.83MB/s]5b31b22164256e3699ec88b81b03ca1d.nc:  89%|████████▊ | 12.0M/13.5M [00:04<00:00, 5.36MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2011_06.nc (13.53 MB)
+[23/117] Checking 2011-07 (July)...
+
+--> Requesting 2011-07 (July 2011) [Attempt 1/3]...
+2026-09-20 12:01:50,185 INFO Request ID is cb3ebed5-4d7b-434c-b2b6-b428584c6f8c
+2026-09-20 12:01:50,689 INFO status has been updated to successful
+85125233d456c372abe3748ba98c3a18.nc:   0%|          | 0.00/14.2M [00:00<?, ?B/s]85125233d456c372abe3748ba98c3a18.nc:   7%|▋         | 1.00M/14.2M [00:02<00:35, 390kB/s]85125233d456c372abe3748ba98c3a18.nc:  14%|█▍        | 2.00M/14.2M [00:02<00:15, 822kB/s]85125233d456c372abe3748ba98c3a18.nc:  21%|██        | 3.00M/14.2M [00:03<00:08, 1.31MB/s]85125233d456c372abe3748ba98c3a18.nc:  42%|████▏     | 6.00M/14.2M [00:03<00:02, 3.13MB/s]85125233d456c372abe3748ba98c3a18.nc:  63%|██████▎   | 9.00M/14.2M [00:03<00:01, 4.61MB/s]85125233d456c372abe3748ba98c3a18.nc:  84%|████████▍ | 12.0M/14.2M [00:04<00:00, 6.04MB/s]85125233d456c372abe3748ba98c3a18.nc: 100%|██████████| 14.2M/14.2M [00:04<00:00, 6.86MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2011_07.nc (14.24 MB)
+[24/117] Checking 2012-04 (April)...
+
+--> Requesting 2012-04 (April 2012) [Attempt 1/3]...
+2026-09-20 12:01:57,656 INFO Request ID is 2b5b39f0-2e30-480b-952a-e2feef3838ba
+2026-09-20 12:01:57,963 INFO status has been updated to successful
+54ebb5587fbdc258b9a86917616533d7.nc:   0%|          | 0.00/9.93M [00:00<?, ?B/s]54ebb5587fbdc258b9a86917616533d7.nc:  10%|█         | 1.00M/9.93M [00:02<00:24, 384kB/s]54ebb5587fbdc258b9a86917616533d7.nc:  20%|██        | 2.00M/9.93M [00:03<00:10, 807kB/s]54ebb5587fbdc258b9a86917616533d7.nc:  30%|███       | 3.00M/9.93M [00:03<00:05, 1.29MB/s]54ebb5587fbdc258b9a86917616533d7.nc:  50%|█████     | 5.00M/9.93M [00:03<00:02, 2.41MB/s]54ebb5587fbdc258b9a86917616533d7.nc:  81%|████████  | 8.00M/9.93M [00:03<00:00, 4.18MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2012_04.nc (9.93 MB)
+[25/117] Checking 2012-05 (May)...
+
+--> Requesting 2012-05 (May 2012) [Attempt 1/3]...
+2026-09-20 12:02:07,695 INFO Request ID is 689785de-091e-43cc-8ace-1d97c974c345
+2026-09-20 12:02:08,002 INFO status has been updated to successful
+198943fa3b176f395658089ee063f967.nc:   0%|          | 0.00/10.9M [00:00<?, ?B/s]198943fa3b176f395658089ee063f967.nc:   9%|▉         | 1.00M/10.9M [00:02<00:26, 389kB/s]198943fa3b176f395658089ee063f967.nc:  18%|█▊        | 2.00M/10.9M [00:02<00:11, 819kB/s]198943fa3b176f395658089ee063f967.nc:  28%|██▊       | 3.00M/10.9M [00:03<00:06, 1.31MB/s]198943fa3b176f395658089ee063f967.nc:  55%|█████▌    | 6.00M/10.9M [00:03<00:01, 3.13MB/s]198943fa3b176f395658089ee063f967.nc:  83%|████████▎ | 9.00M/10.9M [00:03<00:00, 4.60MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2012_05.nc (10.90 MB)
+[26/117] Checking 2012-06 (June)...
+
+--> Requesting 2012-06 (June 2012) [Attempt 1/3]...
+2026-09-20 12:02:21,673 INFO Request ID is 2a439bcc-74ac-48f3-a7af-1dbdc9f26974
+2026-09-20 12:02:22,790 INFO status has been updated to successful
+4b62f00305100de6ec480f96b43ffd98.nc:   0%|          | 0.00/13.1M [00:00<?, ?B/s]4b62f00305100de6ec480f96b43ffd98.nc:   8%|▊         | 1.00M/13.1M [00:02<00:32, 386kB/s]4b62f00305100de6ec480f96b43ffd98.nc:  15%|█▌        | 2.00M/13.1M [00:03<00:14, 814kB/s]4b62f00305100de6ec480f96b43ffd98.nc:  23%|██▎       | 3.00M/13.1M [00:03<00:08, 1.31MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  46%|████▌     | 6.00M/13.1M [00:03<00:02, 3.11MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  61%|██████    | 8.00M/13.1M [00:03<00:01, 3.98MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  84%|████████▍ | 11.0M/13.1M [00:04<00:00, 5.57MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  99%|█████████▉| 13.0M/13.1M [00:04<00:00, 5.42MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2012_06.nc (13.08 MB)
+[27/117] Checking 2012-07 (July)...
+
+--> Requesting 2012-07 (July 2012) [Attempt 1/3]...
+2026-09-20 12:02:30,435 INFO Request ID is f83574db-ad71-4e23-9f55-e1a0149c14d8
+2026-09-20 12:02:30,753 INFO status has been updated to successful
+6f10800f67bf09e75205ee1e36ce5b32.nc:   0%|          | 0.00/14.6M [00:00<?, ?B/s]6f10800f67bf09e75205ee1e36ce5b32.nc:   7%|▋         | 1.00M/14.6M [00:02<00:37, 377kB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  14%|█▎        | 2.00M/14.6M [00:03<00:16, 785kB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  21%|██        | 3.00M/14.6M [00:03<00:09, 1.29MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  27%|██▋       | 4.00M/14.6M [00:03<00:07, 1.45MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  48%|████▊     | 7.00M/14.6M [00:04<00:02, 2.68MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  69%|██████▊   | 10.0M/14.6M [00:04<00:01, 4.15MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  89%|████████▉ | 13.0M/14.6M [00:05<00:00, 5.50MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2012_07.nc (14.56 MB)
+[28/117] Checking 2012-08 (August)...
+
+--> Requesting 2012-08 (August 2012) [Attempt 1/3]...
+2026-09-20 12:02:40,051 INFO Request ID is 47c3e188-4faa-440d-b703-13a729e134e2
+2026-09-20 12:02:40,518 INFO status has been updated to successful
+13002911d9802a1ec38e83390105024d.nc:   0%|          | 0.00/13.7M [00:00<?, ?B/s]13002911d9802a1ec38e83390105024d.nc:   7%|▋         | 1.00M/13.7M [00:02<00:34, 389kB/s]13002911d9802a1ec38e83390105024d.nc:  15%|█▍        | 2.00M/13.7M [00:02<00:15, 818kB/s]13002911d9802a1ec38e83390105024d.nc:  22%|██▏       | 3.00M/13.7M [00:03<00:08, 1.30MB/s]13002911d9802a1ec38e83390105024d.nc:  44%|████▎     | 6.00M/13.7M [00:03<00:02, 3.10MB/s]13002911d9802a1ec38e83390105024d.nc:  58%|█████▊    | 8.00M/13.7M [00:03<00:01, 3.99MB/s]13002911d9802a1ec38e83390105024d.nc:  80%|████████  | 11.0M/13.7M [00:04<00:00, 5.57MB/s]13002911d9802a1ec38e83390105024d.nc: 100%|██████████| 13.7M/13.7M [00:04<00:00, 6.64MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2012_08.nc (13.74 MB)
+[29/117] Checking 2013-06 (June)...
+
+--> Requesting 2013-06 (June 2013) [Attempt 1/3]...
+2026-09-20 12:02:50,841 INFO Request ID is bc0c46f2-d536-49d1-80b2-b49107334f4b
+2026-09-20 12:02:51,157 INFO status has been updated to successful
+b6cbfc2d59da4ece857080c61eaa2812.nc:   0%|          | 0.00/12.5M [00:00<?, ?B/s]b6cbfc2d59da4ece857080c61eaa2812.nc:   8%|▊         | 1.00M/12.5M [00:02<00:30, 393kB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  16%|█▌        | 2.00M/12.5M [00:02<00:13, 826kB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  24%|██▍       | 3.00M/12.5M [00:03<00:07, 1.30MB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  48%|████▊     | 6.00M/12.5M [00:03<00:02, 3.12MB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  72%|███████▏  | 9.00M/12.5M [00:03<00:00, 4.76MB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  96%|█████████▌| 12.0M/12.5M [00:04<00:00, 6.18MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2013_06.nc (12.52 MB)
+[30/117] Checking 2013-07 (July)...
+
+--> Requesting 2013-07 (July 2013) [Attempt 1/3]...
+2026-09-20 12:03:01,287 INFO Request ID is 30503a28-88bb-46cb-b6e6-537c68bb1fd7
+2026-09-20 12:03:01,610 INFO status has been updated to successful
+acc5b05255e221cde8a7000513575c0a.nc:   0%|          | 0.00/14.3M [00:00<?, ?B/s]acc5b05255e221cde8a7000513575c0a.nc:   7%|▋         | 1.00M/14.3M [00:02<00:35, 388kB/s]acc5b05255e221cde8a7000513575c0a.nc:  14%|█▍        | 2.00M/14.3M [00:02<00:15, 817kB/s]acc5b05255e221cde8a7000513575c0a.nc:  21%|██        | 3.00M/14.3M [00:03<00:09, 1.30MB/s]acc5b05255e221cde8a7000513575c0a.nc:  42%|████▏     | 6.00M/14.3M [00:03<00:02, 3.12MB/s]acc5b05255e221cde8a7000513575c0a.nc:  63%|██████▎   | 9.00M/14.3M [00:03<00:01, 4.75MB/s]acc5b05255e221cde8a7000513575c0a.nc:  84%|████████▍ | 12.0M/14.3M [00:04<00:00, 6.16MB/s]acc5b05255e221cde8a7000513575c0a.nc:  98%|█████████▊| 14.0M/14.3M [00:04<00:00, 6.47MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2013_07.nc (14.28 MB)
+[31/117] Checking 2013-08 (August)...
+
+--> Requesting 2013-08 (August 2013) [Attempt 1/3]...
+2026-09-20 12:03:08,836 INFO Request ID is 96f6413c-c14c-4ef0-9bc9-ab760336a03e
+2026-09-20 12:03:09,139 INFO status has been updated to successful
+461a6396af64d0dc23845b620e0a7d27.nc:   0%|          | 0.00/14.0M [00:00<?, ?B/s]461a6396af64d0dc23845b620e0a7d27.nc:   7%|▋         | 1.00M/14.0M [00:02<00:34, 391kB/s]461a6396af64d0dc23845b620e0a7d27.nc:  14%|█▍        | 2.00M/14.0M [00:02<00:15, 822kB/s]461a6396af64d0dc23845b620e0a7d27.nc:  22%|██▏       | 3.00M/14.0M [00:03<00:08, 1.31MB/s]461a6396af64d0dc23845b620e0a7d27.nc:  43%|████▎     | 6.00M/14.0M [00:03<00:02, 3.10MB/s]461a6396af64d0dc23845b620e0a7d27.nc:  65%|██████▍   | 9.00M/14.0M [00:03<00:01, 4.75MB/s]461a6396af64d0dc23845b620e0a7d27.nc:  86%|████████▌ | 12.0M/14.0M [00:04<00:00, 6.17MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2013_08.nc (13.95 MB)
+[32/117] Checking 2013-09 (September)...
+
+--> Requesting 2013-09 (September 2013) [Attempt 1/3]...
+2026-09-20 12:03:15,547 INFO Request ID is ecd2045e-9fbb-4318-9e3a-20ccf2479178
+2026-09-20 12:03:15,936 INFO status has been updated to successful
+48f45b2dc54cee199f2daafb5e43a22d.nc:   0%|          | 0.00/12.4M [00:00<?, ?B/s]48f45b2dc54cee199f2daafb5e43a22d.nc:   8%|▊         | 1.00M/12.4M [00:02<00:30, 390kB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  16%|█▌        | 2.00M/12.4M [00:02<00:13, 822kB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  24%|██▍       | 3.00M/12.4M [00:03<00:07, 1.30MB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  48%|████▊     | 6.00M/12.4M [00:03<00:02, 3.10MB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  73%|███████▎  | 9.00M/12.4M [00:03<00:00, 4.74MB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  97%|█████████▋| 12.0M/12.4M [00:04<00:00, 6.15MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2013_09.nc (12.38 MB)
+[33/117] Checking 2014-05 (May)...
+
+--> Requesting 2014-05 (May 2014) [Attempt 1/3]...
+2026-09-20 12:03:22,680 INFO Request ID is 5ba1dbd0-5398-4bfb-9f89-0548da07810d
+2026-09-20 12:03:24,552 INFO status has been updated to successful
+b8761b737f9f988a57dbd12196d5a774.nc:   0%|          | 0.00/11.9M [00:00<?, ?B/s]b8761b737f9f988a57dbd12196d5a774.nc:   8%|▊         | 1.00M/11.9M [00:02<00:29, 387kB/s]b8761b737f9f988a57dbd12196d5a774.nc:  17%|█▋        | 2.00M/11.9M [00:02<00:12, 816kB/s]b8761b737f9f988a57dbd12196d5a774.nc:  25%|██▌       | 3.00M/11.9M [00:03<00:07, 1.31MB/s]b8761b737f9f988a57dbd12196d5a774.nc:  50%|█████     | 6.00M/11.9M [00:03<00:01, 3.13MB/s]b8761b737f9f988a57dbd12196d5a774.nc:  75%|███████▌  | 9.00M/11.9M [00:03<00:00, 4.58MB/s]b8761b737f9f988a57dbd12196d5a774.nc:  92%|█████████▏| 11.0M/11.9M [00:04<00:00, 5.46MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2014_05.nc (11.94 MB)
+[34/117] Checking 2014-06 (June)...
+
+--> Requesting 2014-06 (June 2014) [Attempt 1/3]...
+2026-09-20 12:03:37,909 INFO Request ID is 366c4d0f-5b26-4c18-a2fe-9bae81b75784
+2026-09-20 12:03:38,218 INFO status has been updated to successful
+7d83e90a14582b384a685513012030c6.nc:   0%|          | 0.00/13.2M [00:00<?, ?B/s]7d83e90a14582b384a685513012030c6.nc:   8%|▊         | 1.00M/13.2M [00:02<00:32, 390kB/s]7d83e90a14582b384a685513012030c6.nc:  15%|█▌        | 2.00M/13.2M [00:02<00:14, 819kB/s]7d83e90a14582b384a685513012030c6.nc:  23%|██▎       | 3.00M/13.2M [00:03<00:08, 1.31MB/s]7d83e90a14582b384a685513012030c6.nc:  46%|████▌     | 6.00M/13.2M [00:03<00:02, 3.11MB/s]7d83e90a14582b384a685513012030c6.nc:  61%|██████    | 8.00M/13.2M [00:03<00:01, 4.03MB/s]7d83e90a14582b384a685513012030c6.nc:  84%|████████▎ | 11.0M/13.2M [00:04<00:00, 5.61MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2014_06.nc (13.16 MB)
+[35/117] Checking 2014-07 (July)...
+
+--> Requesting 2014-07 (July 2014) [Attempt 1/3]...
+2026-09-20 12:03:45,077 INFO Request ID is be8a3dd4-64f3-419a-9b91-90261989dc98
+2026-09-20 12:03:45,407 INFO status has been updated to successful
+b48cfbcd04d18284cfe6957ef2485bed.nc:   0%|          | 0.00/14.2M [00:00<?, ?B/s]b48cfbcd04d18284cfe6957ef2485bed.nc:   7%|▋         | 1.00M/14.2M [00:02<00:36, 381kB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  14%|█▍        | 2.00M/14.2M [00:03<00:15, 805kB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  21%|██        | 3.00M/14.2M [00:03<00:08, 1.32MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  35%|███▌      | 5.00M/14.2M [00:03<00:03, 2.79MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  42%|████▏     | 6.00M/14.2M [00:03<00:03, 2.58MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  63%|██████▎   | 9.00M/14.2M [00:04<00:01, 4.45MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  77%|███████▋  | 11.0M/14.2M [00:04<00:00, 6.10MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  92%|█████████▏| 13.0M/14.2M [00:04<00:00, 6.44MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc: 100%|██████████| 14.2M/14.2M [00:04<00:00, 6.48MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2014_07.nc (14.20 MB)
+[36/117] Checking 2014-08 (August)...
+
+--> Requesting 2014-08 (August 2014) [Attempt 1/3]...
+2026-09-20 12:03:56,350 INFO Request ID is a73e6fd2-f407-498a-8fd3-8eeedd570647
+2026-09-20 12:03:56,665 INFO status has been updated to successful
+cb13977f4dd66950beeea5cf7de25eab.nc:   0%|          | 0.00/15.7M [00:00<?, ?B/s]cb13977f4dd66950beeea5cf7de25eab.nc:   6%|▋         | 1.00M/15.7M [00:02<00:39, 387kB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  13%|█▎        | 2.00M/15.7M [00:03<00:17, 815kB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  19%|█▉        | 3.00M/15.7M [00:03<00:10, 1.30MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  38%|███▊      | 6.00M/15.7M [00:03<00:03, 3.11MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  57%|█████▋    | 9.00M/15.7M [00:03<00:01, 4.57MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  70%|███████   | 11.0M/15.7M [00:04<00:00, 5.40MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  89%|████████▉ | 14.0M/15.7M [00:04<00:00, 6.75MB/s]cb13977f4dd66950beeea5cf7de25eab.nc: 100%|██████████| 15.7M/15.7M [00:05<00:00, 4.31MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2014_08.nc (15.71 MB)
+[37/117] Checking 2014-09 (September)...
+
+--> Requesting 2014-09 (September 2014) [Attempt 1/3]...
+2026-09-20 12:04:11,129 INFO Request ID is 9a5eb8d2-c3c5-4516-b734-8bd796937895
+2026-09-20 12:04:11,439 INFO status has been updated to successful
+6ec9cd96dc862a39c287d96671f4cfd.nc:   0%|          | 0.00/12.6M [00:00<?, ?B/s]6ec9cd96dc862a39c287d96671f4cfd.nc:   8%|▊         | 1.00M/12.6M [00:02<00:31, 390kB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  16%|█▌        | 2.00M/12.6M [00:02<00:13, 822kB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  24%|██▍       | 3.00M/12.6M [00:03<00:07, 1.31MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  40%|███▉      | 5.00M/12.6M [00:03<00:03, 2.31MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  56%|█████▌    | 7.00M/12.6M [00:03<00:01, 3.32MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  63%|██████▎   | 8.00M/12.6M [00:04<00:01, 3.34MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  79%|███████▉  | 10.0M/12.6M [00:04<00:00, 4.21MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  95%|█████████▌| 12.0M/12.6M [00:04<00:00, 4.95MB/s]                                                                                            SUCCESS: Saved and validated era5_land_2014_09.nc (12.60 MB)
+[38/117] Checking 2015-05 (May)...
+
+--> Requesting 2015-05 (May 2015) [Attempt 1/3]...
+2026-09-20 12:04:26,973 INFO Request ID is 76588969-0c38-451a-81a9-a480e02e550c
+2026-09-20 12:04:27,281 INFO status has been updated to successful
+e9368e17f78713845a76d481ee2d91d2.nc:   0%|          | 0.00/12.0M [00:00<?, ?B/s]e9368e17f78713845a76d481ee2d91d2.nc:   8%|▊         | 1.00M/12.0M [00:02<00:29, 386kB/s]e9368e17f78713845a76d481ee2d91d2.nc:  17%|█▋        | 2.00M/12.0M [00:03<00:13, 802kB/s]e9368e17f78713845a76d481ee2d91d2.nc:  25%|██▌       | 3.00M/12.0M [00:03<00:07, 1.29MB/s]e9368e17f78713845a76d481ee2d91d2.nc:  42%|████▏     | 5.00M/12.0M [00:03<00:02, 2.74MB/s]e9368e17f78713845a76d481ee2d91d2.nc:  50%|█████     | 6.00M/12.0M [00:03<00:01, 3.21MB/s]e9368e17f78713845a76d481ee2d91d2.nc:  67%|██████▋   | 8.00M/12.0M [00:03<00:00, 4.29MB/s]e9368e17f78713845a76d481ee2d91d2.nc:  83%|████████▎ | 10.0M/12.0M [00:03<00:00, 6.22MB/s]e9368e17f78713845a76d481ee2d91d2.nc: 100%|██████████| 12.0M/12.0M [00:04<00:00, 7.04MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2015_05.nc (12.00 MB)
+[39/117] Checking 2015-06 (June)...
+
+--> Requesting 2015-06 (June 2015) [Attempt 1/3]...
+2026-09-20 12:04:33,848 INFO Request ID is ca97c7c2-1cdc-4393-9730-dc8100cb0fc3
+2026-09-20 12:04:35,104 INFO status has been updated to successful
+40ceec4554441e920c9eed7e238b9f2b.nc:   0%|          | 0.00/13.3M [00:00<?, ?B/s]40ceec4554441e920c9eed7e238b9f2b.nc:   8%|▊         | 1.00M/13.3M [00:02<00:33, 384kB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  15%|█▌        | 2.00M/13.3M [00:03<00:14, 809kB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  23%|██▎       | 3.00M/13.3M [00:03<00:08, 1.29MB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  45%|████▌     | 6.00M/13.3M [00:03<00:02, 3.08MB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  68%|██████▊   | 9.00M/13.3M [00:03<00:00, 4.70MB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  91%|█████████ | 12.0M/13.3M [00:04<00:00, 5.89MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2015_06.nc (13.25 MB)
+[40/117] Checking 2015-07 (July)...
+
+--> Requesting 2015-07 (July 2015) [Attempt 1/3]...
+2026-09-20 12:04:41,583 INFO Request ID is eaea3d69-c7a9-4ff7-8729-cae04351cdaa
+2026-09-20 12:04:41,892 INFO status has been updated to successful
+3e174a362513b904f76ef0cc6ee20c30.nc:   0%|          | 0.00/15.5M [00:00<?, ?B/s]3e174a362513b904f76ef0cc6ee20c30.nc:   6%|▋         | 1.00M/15.5M [00:02<00:39, 388kB/s]3e174a362513b904f76ef0cc6ee20c30.nc:  13%|█▎        | 2.00M/15.5M [00:02<00:17, 817kB/s]3e174a362513b904f76ef0cc6ee20c30.nc:  19%|█▉        | 3.00M/15.5M [00:03<00:09, 1.32MB/s]3e174a362513b904f76ef0cc6ee20c30.nc:  39%|███▊      | 6.00M/15.5M [00:03<00:03, 2.64MB/s]3e174a362513b904f76ef0cc6ee20c30.nc:  58%|█████▊    | 9.00M/15.5M [00:04<00:01, 3.51MB/s]3e174a362513b904f76ef0cc6ee20c30.nc:  71%|███████   | 11.0M/15.5M [00:04<00:01, 3.55MB/s]3e174a362513b904f76ef0cc6ee20c30.nc:  90%|█████████ | 14.0M/15.5M [00:05<00:00, 4.86MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2015_07.nc (15.49 MB)
+[41/117] Checking 2015-08 (August)...
+
+--> Requesting 2015-08 (August 2015) [Attempt 1/3]...
+2026-09-20 12:04:51,982 INFO Request ID is 681a207a-3b78-4e15-84f4-ff522f8329cd
+2026-09-20 12:04:52,302 INFO status has been updated to successful
+a1adc408b5c994960f6c215c32e8ef50.nc:   0%|          | 0.00/14.3M [00:00<?, ?B/s]a1adc408b5c994960f6c215c32e8ef50.nc:   7%|▋         | 1.00M/14.3M [00:02<00:36, 386kB/s]a1adc408b5c994960f6c215c32e8ef50.nc:  14%|█▍        | 2.00M/14.3M [00:03<00:15, 812kB/s]a1adc408b5c994960f6c215c32e8ef50.nc:  21%|██        | 3.00M/14.3M [00:03<00:09, 1.30MB/s]a1adc408b5c994960f6c215c32e8ef50.nc:  42%|████▏     | 6.00M/14.3M [00:03<00:02, 3.10MB/s]a1adc408b5c994960f6c215c32e8ef50.nc:  49%|████▉     | 7.00M/14.3M [00:03<00:02, 3.06MB/s]a1adc408b5c994960f6c215c32e8ef50.nc:  70%|███████   | 10.0M/14.3M [00:04<00:01, 3.91MB/s]a1adc408b5c994960f6c215c32e8ef50.nc:  84%|████████▍ | 12.0M/14.3M [00:05<00:00, 3.81MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2015_08.nc (14.28 MB)
+[42/117] Checking 2015-09 (September)...
+
+--> Requesting 2015-09 (September 2015) [Attempt 1/3]...
+2026-09-20 12:04:59,746 INFO Request ID is 0656bfbd-b84d-4259-b324-0575c1f02a94
+2026-09-20 12:05:00,080 INFO status has been updated to successful
+d106341203ffa487e091e713b5478a1e.nc:   0%|          | 0.00/12.1M [00:00<?, ?B/s]d106341203ffa487e091e713b5478a1e.nc:   8%|▊         | 1.00M/12.1M [00:02<00:29, 392kB/s]d106341203ffa487e091e713b5478a1e.nc:  16%|█▋        | 2.00M/12.1M [00:03<00:14, 750kB/s]d106341203ffa487e091e713b5478a1e.nc:  33%|███▎      | 4.00M/12.1M [00:03<00:04, 1.71MB/s]d106341203ffa487e091e713b5478a1e.nc:  41%|████      | 5.00M/12.1M [00:03<00:03, 2.05MB/s]d106341203ffa487e091e713b5478a1e.nc:  49%|████▉     | 6.00M/12.1M [00:04<00:02, 2.37MB/s]d106341203ffa487e091e713b5478a1e.nc:  58%|█████▊    | 7.00M/12.1M [00:04<00:02, 2.67MB/s]d106341203ffa487e091e713b5478a1e.nc:  74%|███████▍  | 9.00M/12.1M [00:04<00:00, 3.75MB/s]d106341203ffa487e091e713b5478a1e.nc:  82%|████████▏ | 10.0M/12.1M [00:04<00:00, 3.74MB/s]d106341203ffa487e091e713b5478a1e.nc:  91%|█████████ | 11.0M/12.1M [00:05<00:00, 3.73MB/s]d106341203ffa487e091e713b5478a1e.nc: 100%|██████████| 12.1M/12.1M [00:05<00:00, 3.88MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2015_09.nc (12.14 MB)
+[43/117] Checking 2016-04 (April)...
+
+--> Requesting 2016-04 (April 2016) [Attempt 1/3]...
+2026-09-20 12:05:08,650 INFO Request ID is ab7d0f47-39d1-49ab-85fd-c13f063e5929
+2026-09-20 12:05:09,051 INFO status has been updated to successful
+c41be2c8baa4e8b7b59759572095409.nc:   0%|          | 0.00/9.99M [00:00<?, ?B/s]c41be2c8baa4e8b7b59759572095409.nc:  10%|█         | 1.00M/9.99M [00:02<00:24, 384kB/s]c41be2c8baa4e8b7b59759572095409.nc:  20%|██        | 2.00M/9.99M [00:03<00:10, 809kB/s]c41be2c8baa4e8b7b59759572095409.nc:  30%|███       | 3.00M/9.99M [00:03<00:05, 1.29MB/s]c41be2c8baa4e8b7b59759572095409.nc:  60%|██████    | 6.00M/9.99M [00:03<00:01, 3.09MB/s]c41be2c8baa4e8b7b59759572095409.nc:  90%|█████████ | 9.00M/9.99M [00:03<00:00, 4.71MB/s]                                                                                            SUCCESS: Saved and validated era5_land_2016_04.nc (9.99 MB)
+[44/117] Checking 2016-05 (May)...
+
+--> Requesting 2016-05 (May 2016) [Attempt 1/3]...
+2026-09-20 12:05:15,378 INFO Request ID is cbab55fe-de0b-4351-9c4f-be46b43f73fd
+2026-09-20 12:05:18,036 INFO status has been updated to successful
+a0bce7fc3c3a9bbd874fc22c481918de.nc:   0%|          | 0.00/11.7M [00:00<?, ?B/s]a0bce7fc3c3a9bbd874fc22c481918de.nc:   9%|▊         | 1.00M/11.7M [00:02<00:28, 389kB/s]a0bce7fc3c3a9bbd874fc22c481918de.nc:  17%|█▋        | 2.00M/11.7M [00:02<00:12, 818kB/s]a0bce7fc3c3a9bbd874fc22c481918de.nc:  26%|██▌       | 3.00M/11.7M [00:03<00:07, 1.30MB/s]a0bce7fc3c3a9bbd874fc22c481918de.nc:  51%|█████     | 6.00M/11.7M [00:03<00:01, 3.11MB/s]a0bce7fc3c3a9bbd874fc22c481918de.nc:  77%|███████▋  | 9.00M/11.7M [00:04<00:00, 3.90MB/s]a0bce7fc3c3a9bbd874fc22c481918de.nc: 100%|██████████| 11.7M/11.7M [00:04<00:00, 4.23MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2016_05.nc (11.74 MB)
+[45/117] Checking 2016-06 (June)...
+
+--> Requesting 2016-06 (June 2016) [Attempt 1/3]...
+2026-09-20 12:05:28,111 INFO Request ID is e4e3001e-0b29-4c81-ba12-c662191b1b6d
+2026-09-20 12:05:28,651 INFO status has been updated to successful
+9bf978fb85d4ca4e4367de83d3a63b0.nc:   0%|          | 0.00/13.2M [00:00<?, ?B/s]9bf978fb85d4ca4e4367de83d3a63b0.nc:   8%|▊         | 1.00M/13.2M [00:02<00:33, 385kB/s]9bf978fb85d4ca4e4367de83d3a63b0.nc:  15%|█▌        | 2.00M/13.2M [00:03<00:14, 811kB/s]9bf978fb85d4ca4e4367de83d3a63b0.nc:  23%|██▎       | 3.00M/13.2M [00:03<00:08, 1.30MB/s]9bf978fb85d4ca4e4367de83d3a63b0.nc:  45%|████▌     | 6.00M/13.2M [00:03<00:02, 3.10MB/s]9bf978fb85d4ca4e4367de83d3a63b0.nc:  68%|██████▊   | 9.00M/13.2M [00:03<00:00, 4.72MB/s]9bf978fb85d4ca4e4367de83d3a63b0.nc:  83%|████████▎ | 11.0M/13.2M [00:04<00:00, 5.32MB/s]                                                                                            SUCCESS: Saved and validated era5_land_2016_06.nc (13.19 MB)
+[46/117] Checking 2016-07 (July)...
+
+--> Requesting 2016-07 (July 2016) [Attempt 1/3]...
+2026-09-20 12:05:35,827 INFO Request ID is fe9f8194-3633-499f-af31-018bfa79f2e3
+2026-09-20 12:05:36,701 INFO status has been updated to successful
+86b17f9e2ab86e97024818ac3665cc87.nc:   0%|          | 0.00/15.8M [00:00<?, ?B/s]86b17f9e2ab86e97024818ac3665cc87.nc:   6%|▋         | 1.00M/15.8M [00:02<00:40, 383kB/s]86b17f9e2ab86e97024818ac3665cc87.nc:  13%|█▎        | 2.00M/15.8M [00:03<00:17, 807kB/s]86b17f9e2ab86e97024818ac3665cc87.nc:  19%|█▉        | 3.00M/15.8M [00:03<00:10, 1.29MB/s]86b17f9e2ab86e97024818ac3665cc87.nc:  38%|███▊      | 6.00M/15.8M [00:03<00:03, 3.09MB/s]86b17f9e2ab86e97024818ac3665cc87.nc:  51%|█████     | 8.00M/15.8M [00:03<00:02, 3.96MB/s]86b17f9e2ab86e97024818ac3665cc87.nc:  70%|██████▉   | 11.0M/15.8M [00:04<00:00, 5.51MB/s]86b17f9e2ab86e97024818ac3665cc87.nc:  89%|████████▊ | 14.0M/15.8M [00:04<00:00, 6.50MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2016_07.nc (15.81 MB)
+[47/117] Checking 2016-08 (August)...
+
+--> Requesting 2016-08 (August 2016) [Attempt 1/3]...
+2026-09-20 12:05:43,826 INFO Request ID is 91fe46c5-702a-413f-bbaf-659b9dc99f92
+2026-09-20 12:05:44,131 INFO status has been updated to successful
+e861bceb6760ef50a138005b53bb27a9.nc:   0%|          | 0.00/14.3M [00:00<?, ?B/s]e861bceb6760ef50a138005b53bb27a9.nc:   7%|▋         | 1.00M/14.3M [00:02<00:37, 370kB/s]e861bceb6760ef50a138005b53bb27a9.nc:  14%|█▍        | 2.00M/14.3M [00:03<00:17, 723kB/s]e861bceb6760ef50a138005b53bb27a9.nc:  28%|██▊       | 4.00M/14.3M [00:03<00:06, 1.58MB/s]e861bceb6760ef50a138005b53bb27a9.nc:  42%|████▏     | 6.00M/14.3M [00:04<00:03, 2.49MB/s]e861bceb6760ef50a138005b53bb27a9.nc:  49%|████▉     | 7.00M/14.3M [00:04<00:02, 2.71MB/s]e861bceb6760ef50a138005b53bb27a9.nc:  56%|█████▌    | 8.00M/14.3M [00:04<00:02, 2.91MB/s]e861bceb6760ef50a138005b53bb27a9.nc:  70%|██████▉   | 10.0M/14.3M [00:04<00:01, 3.89MB/s]e861bceb6760ef50a138005b53bb27a9.nc:  77%|███████▋  | 11.0M/14.3M [00:05<00:00, 3.83MB/s]e861bceb6760ef50a138005b53bb27a9.nc:  91%|█████████ | 13.0M/14.3M [00:05<00:00, 4.70MB/s]e861bceb6760ef50a138005b53bb27a9.nc:  98%|█████████▊| 14.0M/14.3M [00:05<00:00, 4.42MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2016_08.nc (14.35 MB)
+[48/117] Checking 2016-09 (September)...
+
+--> Requesting 2016-09 (September 2016) [Attempt 1/3]...
+2026-09-20 12:05:52,886 INFO Request ID is 330630e3-8fdd-4312-a491-cd246d4225d7
+2026-09-20 12:05:54,559 INFO status has been updated to successful
+cfb0960e88a3abec95848440d3471b9e.nc:   0%|          | 0.00/13.1M [00:00<?, ?B/s]cfb0960e88a3abec95848440d3471b9e.nc:   8%|▊         | 1.00M/13.1M [00:02<00:32, 386kB/s]cfb0960e88a3abec95848440d3471b9e.nc:  15%|█▌        | 2.00M/13.1M [00:03<00:14, 813kB/s]cfb0960e88a3abec95848440d3471b9e.nc:  23%|██▎       | 3.00M/13.1M [00:03<00:08, 1.30MB/s]cfb0960e88a3abec95848440d3471b9e.nc:  46%|████▌     | 6.00M/13.1M [00:03<00:02, 3.10MB/s]cfb0960e88a3abec95848440d3471b9e.nc:  61%|██████    | 8.00M/13.1M [00:03<00:01, 3.97MB/s]cfb0960e88a3abec95848440d3471b9e.nc:  69%|██████▉   | 9.00M/13.1M [00:04<00:01, 3.83MB/s]cfb0960e88a3abec95848440d3471b9e.nc:  92%|█████████▏| 12.0M/13.1M [00:04<00:00, 5.51MB/s]cfb0960e88a3abec95848440d3471b9e.nc:  99%|█████████▉| 13.0M/13.1M [00:04<00:00, 5.05MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2016_09.nc (13.08 MB)
+[49/117] Checking 2017-03 (March)...
+
+--> Requesting 2017-03 (March 2017) [Attempt 1/3]...
+2026-09-20 12:06:04,362 INFO Request ID is 46f14bbc-c7ed-4524-9877-2beafac02857
+2026-09-20 12:06:04,667 INFO status has been updated to successful
+a2935d74a67c26de8471ebf4a48151e.nc:   0%|          | 0.00/8.99M [00:00<?, ?B/s]a2935d74a67c26de8471ebf4a48151e.nc:  11%|█         | 1.00M/8.99M [00:02<00:21, 389kB/s]a2935d74a67c26de8471ebf4a48151e.nc:  22%|██▏       | 2.00M/8.99M [00:02<00:08, 818kB/s]a2935d74a67c26de8471ebf4a48151e.nc:  33%|███▎      | 3.00M/8.99M [00:03<00:04, 1.31MB/s]a2935d74a67c26de8471ebf4a48151e.nc:  67%|██████▋   | 6.00M/8.99M [00:03<00:01, 3.11MB/s]a2935d74a67c26de8471ebf4a48151e.nc:  89%|████████▉ | 8.00M/8.99M [00:03<00:00, 4.00MB/s]                                                                                            SUCCESS: Saved and validated era5_land_2017_03.nc (8.99 MB)
+[50/117] Checking 2017-04 (April)...
+
+--> Requesting 2017-04 (April 2017) [Attempt 1/3]...
+2026-09-20 12:06:11,195 INFO Request ID is d92e0e89-b7e2-4481-9f05-a7b2a588c2ac
+2026-09-20 12:06:11,510 INFO status has been updated to successful
+59fdb17ef6aeca829b25dac690d1b32f.nc:   0%|          | 0.00/10.3M [00:00<?, ?B/s]59fdb17ef6aeca829b25dac690d1b32f.nc:  10%|▉         | 1.00M/10.3M [00:02<00:25, 389kB/s]59fdb17ef6aeca829b25dac690d1b32f.nc:  19%|█▉        | 2.00M/10.3M [00:02<00:10, 819kB/s]59fdb17ef6aeca829b25dac690d1b32f.nc:  29%|██▉       | 3.00M/10.3M [00:03<00:05, 1.30MB/s]59fdb17ef6aeca829b25dac690d1b32f.nc:  58%|█████▊    | 6.00M/10.3M [00:03<00:01, 3.12MB/s]59fdb17ef6aeca829b25dac690d1b32f.nc:  77%|███████▋  | 8.00M/10.3M [00:03<00:00, 3.99MB/s]59fdb17ef6aeca829b25dac690d1b32f.nc: 100%|██████████| 10.3M/10.3M [00:04<00:00, 5.04MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2017_04.nc (10.33 MB)
+[51/117] Checking 2017-05 (May)...
+
+--> Requesting 2017-05 (May 2017) [Attempt 1/3]...
+2026-09-20 12:06:18,161 INFO Request ID is f2e3cc29-9245-4f04-97eb-2e982eada59e
+2026-09-20 12:06:18,481 INFO status has been updated to successful
+5bc8ce3e2b52767571c6601ae37986d7.nc:   0%|          | 0.00/11.8M [00:00<?, ?B/s]5bc8ce3e2b52767571c6601ae37986d7.nc:   9%|▊         | 1.00M/11.8M [00:03<00:35, 318kB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  17%|█▋        | 2.00M/11.8M [00:04<00:19, 513kB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  26%|██▌       | 3.00M/11.8M [00:05<00:13, 693kB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  34%|███▍      | 4.00M/11.8M [00:06<00:09, 830kB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  43%|████▎     | 5.00M/11.8M [00:07<00:08, 858kB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  51%|█████     | 6.00M/11.8M [00:08<00:06, 948kB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  60%|█████▉    | 7.00M/11.8M [00:09<00:04, 1.01MB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  68%|██████▊   | 8.00M/11.8M [00:10<00:03, 1.06MB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  77%|███████▋  | 9.00M/11.8M [00:11<00:02, 1.03MB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  85%|████████▌ | 10.0M/11.8M [00:12<00:01, 1.06MB/s]5bc8ce3e2b52767571c6601ae37986d7.nc:  94%|█████████▎| 11.0M/11.8M [00:12<00:00, 1.12MB/s]5bc8ce3e2b52767571c6601ae37986d7.nc: 100%|██████████| 11.8M/11.8M [00:13<00:00, 1.15MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2017_05.nc (11.75 MB)
+[52/117] Checking 2017-06 (June)...
+
+--> Requesting 2017-06 (June 2017) [Attempt 1/3]...
+2026-09-20 12:06:34,322 INFO Request ID is 1eb4815c-8884-4482-9e5d-c94f8db6e6b9
+2026-09-20 12:06:34,640 INFO status has been updated to successful
+26394781d88e79c38050fa446c841375.nc:   0%|          | 0.00/13.2M [00:00<?, ?B/s]26394781d88e79c38050fa446c841375.nc:   8%|▊         | 1.00M/13.2M [00:02<00:33, 383kB/s]26394781d88e79c38050fa446c841375.nc:  15%|█▌        | 2.00M/13.2M [00:03<00:14, 808kB/s]26394781d88e79c38050fa446c841375.nc:  23%|██▎       | 3.00M/13.2M [00:03<00:08, 1.30MB/s]26394781d88e79c38050fa446c841375.nc:  46%|████▌     | 6.00M/13.2M [00:03<00:02, 3.09MB/s]26394781d88e79c38050fa446c841375.nc:  61%|██████    | 8.00M/13.2M [00:03<00:01, 3.97MB/s]26394781d88e79c38050fa446c841375.nc:  84%|████████▎ | 11.0M/13.2M [00:04<00:00, 5.55MB/s]26394781d88e79c38050fa446c841375.nc:  99%|█████████▉| 13.0M/13.2M [00:04<00:00, 5.97MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2017_06.nc (13.15 MB)
+[53/117] Checking 2017-07 (July)...
+
+--> Requesting 2017-07 (July 2017) [Attempt 1/3]...
+2026-09-20 12:06:41,316 INFO Request ID is 3c1faf9e-4fba-4b5c-9518-47ce492a67e9
+2026-09-20 12:06:41,619 INFO status has been updated to successful
+852ff4afce2e13e9abccb32dddd8962d.nc:   0%|          | 0.00/13.9M [00:00<?, ?B/s]852ff4afce2e13e9abccb32dddd8962d.nc:   7%|▋         | 1.00M/13.9M [00:02<00:34, 388kB/s]852ff4afce2e13e9abccb32dddd8962d.nc:  14%|█▍        | 2.00M/13.9M [00:02<00:15, 816kB/s]852ff4afce2e13e9abccb32dddd8962d.nc:  22%|██▏       | 3.00M/13.9M [00:03<00:08, 1.31MB/s]852ff4afce2e13e9abccb32dddd8962d.nc:  43%|████▎     | 6.00M/13.9M [00:03<00:03, 2.62MB/s]852ff4afce2e13e9abccb32dddd8962d.nc:  65%|██████▍   | 9.00M/13.9M [00:04<00:01, 4.14MB/s]852ff4afce2e13e9abccb32dddd8962d.nc:  79%|███████▉  | 11.0M/13.9M [00:04<00:00, 4.80MB/s]852ff4afce2e13e9abccb32dddd8962d.nc: 100%|██████████| 13.9M/13.9M [00:04<00:00, 6.13MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2017_07.nc (13.94 MB)
+[54/117] Checking 2017-10 (October)...
+
+--> Requesting 2017-10 (October 2017) [Attempt 1/3]...
+2026-09-20 12:06:49,444 INFO Request ID is 9b434fb8-2870-4992-b9db-b8f86765e701
+2026-09-20 12:06:49,744 INFO status has been updated to successful
+31e2deb73afbe03aefff4869451389ad.nc:   0%|          | 0.00/12.2M [00:00<?, ?B/s]31e2deb73afbe03aefff4869451389ad.nc:   8%|▊         | 1.00M/12.2M [00:02<00:30, 385kB/s]31e2deb73afbe03aefff4869451389ad.nc:  16%|█▋        | 2.00M/12.2M [00:03<00:13, 810kB/s]31e2deb73afbe03aefff4869451389ad.nc:  25%|██▍       | 3.00M/12.2M [00:03<00:07, 1.31MB/s]31e2deb73afbe03aefff4869451389ad.nc:  49%|████▉     | 6.00M/12.2M [00:03<00:02, 3.12MB/s]31e2deb73afbe03aefff4869451389ad.nc:  74%|███████▎  | 9.00M/12.2M [00:03<00:00, 4.76MB/s]31e2deb73afbe03aefff4869451389ad.nc:  98%|█████████▊| 12.0M/12.2M [00:04<00:00, 5.86MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2017_10.nc (12.23 MB)
+[55/117] Checking 2018-04 (April)...
+    SKIPPED: era5_land_2018_04.nc already exists and is valid.
+[56/117] Checking 2018-05 (May)...
+
+--> Requesting 2018-05 (May 2018) [Attempt 1/3]...
+2026-09-20 12:06:58,900 INFO Request ID is efe8b7ca-a9cb-414a-8ac6-1611822612f0
+2026-09-20 12:06:59,225 INFO status has been updated to successful
+d826bfd4c3a5490845f68af6689491cf.nc:   0%|          | 0.00/12.8M [00:00<?, ?B/s]d826bfd4c3a5490845f68af6689491cf.nc:   8%|▊         | 1.00M/12.8M [00:02<00:32, 385kB/s]d826bfd4c3a5490845f68af6689491cf.nc:  16%|█▌        | 2.00M/12.8M [00:03<00:13, 811kB/s]d826bfd4c3a5490845f68af6689491cf.nc:  23%|██▎       | 3.00M/12.8M [00:03<00:07, 1.30MB/s]d826bfd4c3a5490845f68af6689491cf.nc:  47%|████▋     | 6.00M/12.8M [00:03<00:02, 2.94MB/s]d826bfd4c3a5490845f68af6689491cf.nc:  62%|██████▏   | 8.00M/12.8M [00:03<00:01, 3.80MB/s]d826bfd4c3a5490845f68af6689491cf.nc:  70%|███████   | 9.00M/12.8M [00:04<00:00, 4.03MB/s]d826bfd4c3a5490845f68af6689491cf.nc:  94%|█████████▎| 12.0M/12.8M [00:04<00:00, 5.75MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2018_05.nc (12.81 MB)
+[57/117] Checking 2018-06 (June)...
+
+--> Requesting 2018-06 (June 2018) [Attempt 1/3]...
+2026-09-20 12:07:07,465 INFO Request ID is f21e22a0-0435-481e-8291-72a5562a8c1f
+2026-09-20 12:07:07,832 INFO status has been updated to successful
+32852c8445d710b34a4894cb65f79526.nc:   0%|          | 0.00/13.4M [00:00<?, ?B/s]32852c8445d710b34a4894cb65f79526.nc:   7%|▋         | 1.00M/13.4M [00:02<00:33, 387kB/s]32852c8445d710b34a4894cb65f79526.nc:  15%|█▍        | 2.00M/13.4M [00:03<00:14, 810kB/s]32852c8445d710b34a4894cb65f79526.nc:  22%|██▏       | 3.00M/13.4M [00:03<00:10, 1.08MB/s]32852c8445d710b34a4894cb65f79526.nc:  30%|██▉       | 4.00M/13.4M [00:03<00:06, 1.49MB/s]32852c8445d710b34a4894cb65f79526.nc:  37%|███▋      | 5.00M/13.4M [00:04<00:04, 1.89MB/s]32852c8445d710b34a4894cb65f79526.nc:  45%|████▍     | 6.00M/13.4M [00:04<00:03, 2.24MB/s]32852c8445d710b34a4894cb65f79526.nc:  52%|█████▏    | 7.00M/13.4M [00:04<00:02, 2.54MB/s]32852c8445d710b34a4894cb65f79526.nc:  60%|█████▉    | 8.00M/13.4M [00:05<00:02, 2.79MB/s]32852c8445d710b34a4894cb65f79526.nc:  67%|██████▋   | 9.00M/13.4M [00:05<00:01, 2.99MB/s]32852c8445d710b34a4894cb65f79526.nc:  75%|███████▍  | 10.0M/13.4M [00:05<00:01, 3.15MB/s]32852c8445d710b34a4894cb65f79526.nc:  82%|████████▏ | 11.0M/13.4M [00:05<00:00, 3.27MB/s]32852c8445d710b34a4894cb65f79526.nc:  90%|████████▉ | 12.0M/13.4M [00:06<00:00, 3.35MB/s]32852c8445d710b34a4894cb65f79526.nc:  97%|█████████▋| 13.0M/13.4M [00:06<00:00, 3.42MB/s]32852c8445d710b34a4894cb65f79526.nc: 100%|██████████| 13.4M/13.4M [00:06<00:00, 2.83MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2018_06.nc (13.37 MB)
+[58/117] Checking 2018-07 (July)...
+
+--> Requesting 2018-07 (July 2018) [Attempt 1/3]...
+2026-09-20 12:07:20,891 INFO Request ID is 374335f6-7269-4cc8-adad-53a9aaed9ac7
+2026-09-20 12:07:21,589 INFO status has been updated to successful
+e20e589e8b2f90c1b19b9ef7267ea159.nc:   0%|          | 0.00/14.6M [00:00<?, ?B/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:   7%|▋         | 1.00M/14.6M [00:02<00:36, 387kB/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:  14%|█▎        | 2.00M/14.6M [00:03<00:16, 814kB/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:  21%|██        | 3.00M/14.6M [00:03<00:09, 1.30MB/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:  41%|████      | 6.00M/14.6M [00:03<00:03, 2.60MB/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:  62%|██████▏   | 9.00M/14.6M [00:04<00:01, 3.48MB/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:  76%|███████▌  | 11.0M/14.6M [00:04<00:00, 4.10MB/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:  89%|████████▉ | 13.0M/14.6M [00:05<00:00, 4.74MB/s]e20e589e8b2f90c1b19b9ef7267ea159.nc:  96%|█████████▌| 14.0M/14.6M [00:05<00:00, 4.47MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2018_07.nc (14.55 MB)
+[59/117] Checking 2018-08 (August)...
+
+--> Requesting 2018-08 (August 2018) [Attempt 1/3]...
+2026-09-20 12:07:33,130 INFO Request ID is 6386656c-2bba-44c2-b5a0-c2c22af61d12
+2026-09-20 12:07:33,463 INFO status has been updated to accepted
+2026-09-20 12:08:11,778 INFO status has been updated to running
+2026-09-20 12:10:33,208 INFO status has been updated to successful
+325a59dd62f24c0eb14cd9aa7febc45b.nc:   0%|          | 0.00/14.2M [00:00<?, ?B/s]325a59dd62f24c0eb14cd9aa7febc45b.nc:   7%|▋         | 1.00M/14.2M [00:02<00:35, 386kB/s]325a59dd62f24c0eb14cd9aa7febc45b.nc:  14%|█▍        | 2.00M/14.2M [00:03<00:15, 814kB/s]325a59dd62f24c0eb14cd9aa7febc45b.nc:  21%|██        | 3.00M/14.2M [00:03<00:08, 1.31MB/s]325a59dd62f24c0eb14cd9aa7febc45b.nc:  42%|████▏     | 6.00M/14.2M [00:03<00:02, 3.12MB/s]325a59dd62f24c0eb14cd9aa7febc45b.nc:  64%|██████▎   | 9.00M/14.2M [00:03<00:01, 4.76MB/s]325a59dd62f24c0eb14cd9aa7febc45b.nc:  85%|████████▍ | 12.0M/14.2M [00:04<00:00, 5.91MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2018_08.nc (14.15 MB)
+[60/117] Checking 2019-04 (April)...
+
+--> Requesting 2019-04 (April 2019) [Attempt 1/3]...
+2026-09-20 12:10:40,205 INFO Request ID is d2ddcdf3-c25d-4f73-b838-b7f3869d57e9
+2026-09-20 12:10:40,584 INFO status has been updated to accepted
+2026-09-20 12:11:05,144 INFO status has been updated to running
+2026-09-20 12:12:39,032 INFO status has been updated to successful
+e33c886a2295f1e488aeea083d8b70af.nc:   0%|          | 0.00/8.63M [00:00<?, ?B/s]e33c886a2295f1e488aeea083d8b70af.nc:  12%|█▏        | 1.00M/8.63M [00:02<00:20, 387kB/s]e33c886a2295f1e488aeea083d8b70af.nc:  23%|██▎       | 2.00M/8.63M [00:03<00:08, 814kB/s]e33c886a2295f1e488aeea083d8b70af.nc:  35%|███▍      | 3.00M/8.63M [00:03<00:04, 1.31MB/s]e33c886a2295f1e488aeea083d8b70af.nc:  69%|██████▉   | 6.00M/8.63M [00:03<00:00, 3.12MB/s]e33c886a2295f1e488aeea083d8b70af.nc:  93%|█████████▎| 8.00M/8.63M [00:03<00:00, 4.01MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2019_04.nc (8.63 MB)
+[61/117] Checking 2019-05 (May)...
+
+--> Requesting 2019-05 (May 2019) [Attempt 1/3]...
+2026-09-20 12:12:47,703 INFO Request ID is b2ebb042-2c5a-4a3f-8739-55c3963ece04
+2026-09-20 12:12:48,020 INFO status has been updated to accepted
+2026-09-20 12:13:03,561 INFO status has been updated to running
+2026-09-20 12:15:44,879 INFO status has been updated to successful
+490fdd31a03b95d114217ddb67fb7f90.nc:   0%|          | 0.00/11.4M [00:00<?, ?B/s]490fdd31a03b95d114217ddb67fb7f90.nc:   9%|▉         | 1.00M/11.4M [00:02<00:28, 386kB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  18%|█▊        | 2.00M/11.4M [00:03<00:16, 589kB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  26%|██▋       | 3.00M/11.4M [00:04<00:11, 754kB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  35%|███▌      | 4.00M/11.4M [00:05<00:09, 822kB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  44%|████▍     | 5.00M/11.4M [00:06<00:07, 915kB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  53%|█████▎    | 6.00M/11.4M [00:07<00:05, 994kB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  62%|██████▏   | 7.00M/11.4M [00:08<00:04, 1.05MB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  70%|███████   | 8.00M/11.4M [00:09<00:03, 1.10MB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  79%|███████▉  | 9.00M/11.4M [00:10<00:02, 1.03MB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  88%|████████▊ | 10.0M/11.4M [00:11<00:01, 1.07MB/s]490fdd31a03b95d114217ddb67fb7f90.nc:  97%|█████████▋| 11.0M/11.4M [00:12<00:00, 1.02MB/s]490fdd31a03b95d114217ddb67fb7f90.nc: 100%|██████████| 11.4M/11.4M [00:12<00:00, 1.05MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2019_05.nc (11.36 MB)
+[62/117] Checking 2019-06 (June)...
+
+--> Requesting 2019-06 (June 2019) [Attempt 1/3]...
+2026-09-20 12:16:01,204 INFO Request ID is 7cc42bb3-8fe5-44f9-8c0d-80ff259ffaa6
+2026-09-20 12:16:01,539 INFO status has been updated to accepted
+2026-09-20 12:16:24,795 INFO status has been updated to running
+2026-09-20 12:17:58,614 INFO status has been updated to successful
+2876df274e787c0eab8f9ba3f9b3ab0b.nc:   0%|          | 0.00/12.8M [00:00<?, ?B/s]2876df274e787c0eab8f9ba3f9b3ab0b.nc:   8%|▊         | 1.00M/12.8M [00:02<00:31, 389kB/s]2876df274e787c0eab8f9ba3f9b3ab0b.nc:  16%|█▌        | 2.00M/12.8M [00:02<00:13, 817kB/s]2876df274e787c0eab8f9ba3f9b3ab0b.nc:  23%|██▎       | 3.00M/12.8M [00:03<00:07, 1.30MB/s]2876df274e787c0eab8f9ba3f9b3ab0b.nc:  47%|████▋     | 6.00M/12.8M [00:03<00:02, 3.10MB/s]2876df274e787c0eab8f9ba3f9b3ab0b.nc:  70%|███████   | 9.00M/12.8M [00:03<00:00, 4.74MB/s]2876df274e787c0eab8f9ba3f9b3ab0b.nc:  94%|█████████▎| 12.0M/12.8M [00:04<00:00, 5.98MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2019_06.nc (12.80 MB)
+[63/117] Checking 2019-07 (July)...
+
+--> Requesting 2019-07 (July 2019) [Attempt 1/3]...
+2026-09-20 12:18:05,157 INFO Request ID is f2a69949-988d-4776-966e-97228a166f2b
+2026-09-20 12:18:05,476 INFO status has been updated to accepted
+2026-09-20 12:18:28,126 INFO status has been updated to running
+2026-09-20 12:21:03,815 INFO status has been updated to successful
+51d19037b64015a8e89dd1245270393a.nc:   0%|          | 0.00/14.3M [00:00<?, ?B/s]51d19037b64015a8e89dd1245270393a.nc:   7%|▋         | 1.00M/14.3M [00:02<00:35, 388kB/s]51d19037b64015a8e89dd1245270393a.nc:  14%|█▍        | 2.00M/14.3M [00:02<00:15, 817kB/s]51d19037b64015a8e89dd1245270393a.nc:  21%|██        | 3.00M/14.3M [00:03<00:09, 1.31MB/s]51d19037b64015a8e89dd1245270393a.nc:  42%|████▏     | 6.00M/14.3M [00:03<00:02, 3.13MB/s]51d19037b64015a8e89dd1245270393a.nc:  63%|██████▎   | 9.00M/14.3M [00:03<00:01, 4.78MB/s]51d19037b64015a8e89dd1245270393a.nc:  84%|████████▍ | 12.0M/14.3M [00:04<00:00, 6.18MB/s]51d19037b64015a8e89dd1245270393a.nc:  91%|█████████ | 13.0M/14.3M [00:04<00:00, 5.59MB/s]51d19037b64015a8e89dd1245270393a.nc: 100%|██████████| 14.3M/14.3M [00:04<00:00, 5.33MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2019_07.nc (14.30 MB)
+[64/117] Checking 2019-09 (September)...
+
+--> Requesting 2019-09 (September 2019) [Attempt 1/3]...
+2026-09-20 12:21:11,311 INFO Request ID is 88d42397-4a44-49a5-acd4-5757cf763f63
+2026-09-20 12:21:12,570 INFO status has been updated to accepted
+2026-09-20 12:21:22,718 INFO status has been updated to running
+2026-09-20 12:24:09,069 INFO status has been updated to successful
+1631c1989e30304a41b0871cf3aa71b7.nc:   0%|          | 0.00/12.8M [00:00<?, ?B/s]1631c1989e30304a41b0871cf3aa71b7.nc:   8%|▊         | 1.00M/12.8M [00:02<00:31, 388kB/s]1631c1989e30304a41b0871cf3aa71b7.nc:  16%|█▌        | 2.00M/12.8M [00:02<00:13, 817kB/s]1631c1989e30304a41b0871cf3aa71b7.nc:  23%|██▎       | 3.00M/12.8M [00:03<00:07, 1.31MB/s]1631c1989e30304a41b0871cf3aa71b7.nc:  47%|████▋     | 6.00M/12.8M [00:03<00:02, 2.98MB/s]1631c1989e30304a41b0871cf3aa71b7.nc:  63%|██████▎   | 8.00M/12.8M [00:03<00:01, 3.86MB/s]1631c1989e30304a41b0871cf3aa71b7.nc:  78%|███████▊  | 10.0M/12.8M [00:04<00:00, 4.63MB/s]1631c1989e30304a41b0871cf3aa71b7.nc:  94%|█████████▍| 12.0M/12.8M [00:04<00:00, 5.21MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2019_09.nc (12.78 MB)
+[65/117] Checking 2019-10 (October)...
+
+--> Requesting 2019-10 (October 2019) [Attempt 1/3]...
+2026-09-20 12:24:19,436 INFO Request ID is a01f0c18-a267-494c-9c80-5eaf97d41874
+2026-09-20 12:24:19,750 INFO status has been updated to accepted
+2026-09-20 12:24:44,370 INFO status has been updated to running
+2026-09-20 12:27:17,103 INFO status has been updated to successful
+4b209ba6abeece7a028c579580d350bc.nc:   0%|          | 0.00/11.2M [00:00<?, ?B/s]4b209ba6abeece7a028c579580d350bc.nc:   9%|▉         | 1.00M/11.2M [00:02<00:27, 381kB/s]4b209ba6abeece7a028c579580d350bc.nc:  18%|█▊        | 2.00M/11.2M [00:03<00:11, 804kB/s]4b209ba6abeece7a028c579580d350bc.nc:  27%|██▋       | 3.00M/11.2M [00:03<00:06, 1.31MB/s]4b209ba6abeece7a028c579580d350bc.nc:  45%|████▍     | 5.00M/11.2M [00:03<00:02, 2.78MB/s]4b209ba6abeece7a028c579580d350bc.nc:  54%|█████▎    | 6.00M/11.2M [00:03<00:02, 2.56MB/s]4b209ba6abeece7a028c579580d350bc.nc:  81%|████████  | 9.00M/11.2M [00:04<00:00, 4.37MB/s]4b209ba6abeece7a028c579580d350bc.nc:  98%|█████████▊| 11.0M/11.2M [00:04<00:00, 4.83MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2019_10.nc (11.17 MB)
+[66/117] Checking 2020-01 (January)...
+
+--> Requesting 2020-01 (January 2020) [Attempt 1/3]...
+2026-09-20 12:27:31,078 INFO Request ID is 70cededf-7872-49e7-b15b-544481c10862
+2026-09-20 12:27:31,635 INFO status has been updated to accepted
+2026-09-20 12:27:57,631 INFO status has been updated to running
+2026-09-20 12:30:39,589 INFO status has been updated to successful
+f8e583e3fa4dad555a3de5f52f171423.nc:   0%|          | 0.00/7.57M [00:00<?, ?B/s]f8e583e3fa4dad555a3de5f52f171423.nc:  13%|█▎        | 1.00M/7.57M [00:02<00:19, 352kB/s]f8e583e3fa4dad555a3de5f52f171423.nc:  26%|██▋       | 2.00M/7.57M [00:04<00:10, 563kB/s]f8e583e3fa4dad555a3de5f52f171423.nc:  40%|███▉      | 3.00M/7.57M [00:04<00:06, 730kB/s]f8e583e3fa4dad555a3de5f52f171423.nc:  53%|█████▎    | 4.00M/7.57M [00:05<00:04, 866kB/s]f8e583e3fa4dad555a3de5f52f171423.nc:  66%|██████▌   | 5.00M/7.57M [00:06<00:02, 989kB/s]f8e583e3fa4dad555a3de5f52f171423.nc:  79%|███████▉  | 6.00M/7.57M [00:07<00:01, 1.13MB/s]f8e583e3fa4dad555a3de5f52f171423.nc:  93%|█████████▎| 7.00M/7.57M [00:08<00:00, 1.16MB/s]f8e583e3fa4dad555a3de5f52f171423.nc: 100%|██████████| 7.57M/7.57M [00:08<00:00, 1.16MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2020_01.nc (7.57 MB)
+[67/117] Checking 2020-02 (February)...
+
+--> Requesting 2020-02 (February 2020) [Attempt 1/3]...
+2026-09-20 12:30:50,648 INFO Request ID is b08ed068-a751-4955-8108-726b8eb454c2
+2026-09-20 12:30:50,966 INFO status has been updated to accepted
+2026-09-20 12:31:01,357 INFO status has been updated to running
+2026-09-20 12:32:50,167 INFO status has been updated to successful
+666b3c939aa4bd30716e1911883c69aa.nc:   0%|          | 0.00/6.12M [00:00<?, ?B/s]666b3c939aa4bd30716e1911883c69aa.nc:  16%|█▋        | 1.00M/6.12M [00:03<00:15, 338kB/s]666b3c939aa4bd30716e1911883c69aa.nc:  33%|███▎      | 2.00M/6.12M [00:04<00:07, 545kB/s]666b3c939aa4bd30716e1911883c69aa.nc:  49%|████▉     | 3.00M/6.12M [00:05<00:04, 727kB/s]666b3c939aa4bd30716e1911883c69aa.nc:  65%|██████▌   | 4.00M/6.12M [00:05<00:02, 905kB/s]666b3c939aa4bd30716e1911883c69aa.nc:  82%|████████▏ | 5.00M/6.12M [00:06<00:01, 1.02MB/s]666b3c939aa4bd30716e1911883c69aa.nc:  98%|█████████▊| 6.00M/6.12M [00:07<00:00, 1.20MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2020_02.nc (6.12 MB)
+[68/117] Checking 2020-05 (May)...
+
+--> Requesting 2020-05 (May 2020) [Attempt 1/3]...
+2026-09-20 12:33:00,335 INFO Request ID is efe6b2da-0a8d-4ee3-bdf1-9a00ebcaaf3c
+2026-09-20 12:33:00,641 INFO status has been updated to accepted
+2026-09-20 12:33:23,318 INFO status has been updated to running
+2026-09-20 12:35:58,682 INFO status has been updated to successful
+2c1a8f2ef203a86d99cbd23fcbb1b385.nc:   0%|          | 0.00/11.2M [00:00<?, ?B/s]2c1a8f2ef203a86d99cbd23fcbb1b385.nc:   9%|▉         | 1.00M/11.2M [00:02<00:27, 385kB/s]2c1a8f2ef203a86d99cbd23fcbb1b385.nc:  18%|█▊        | 2.00M/11.2M [00:03<00:11, 809kB/s]2c1a8f2ef203a86d99cbd23fcbb1b385.nc:  27%|██▋       | 3.00M/11.2M [00:03<00:06, 1.28MB/s]2c1a8f2ef203a86d99cbd23fcbb1b385.nc:  53%|█████▎    | 6.00M/11.2M [00:03<00:01, 3.07MB/s]2c1a8f2ef203a86d99cbd23fcbb1b385.nc:  80%|████████  | 9.00M/11.2M [00:03<00:00, 4.69MB/s]2c1a8f2ef203a86d99cbd23fcbb1b385.nc:  98%|█████████▊| 11.0M/11.2M [00:04<00:00, 5.27MB/s]                                                                                             SUCCESS: Saved and validated era5_land_2020_05.nc (11.24 MB)
+[69/117] Checking 2020-06 (June)...
+
+--> Requesting 2020-06 (June 2020) [Attempt 1/3]...
+2026-09-20 12:36:06,126 INFO Request ID is 20cfe91d-243d-444d-9d8c-a0c219f62e3b
+2026-09-20 12:36:06,588 INFO status has been updated to accepted
+2026-09-20 12:36:25,727 INFO status has been updated to running
+2026-09-20 12:38:12,811 INFO status has been updated to successful
+37ff750e5c828af6a7d63814fa407477.nc:   0%|          | 0.00/13.5M [00:00<?, ?B/s]2026-09-20 13:18:55,058 INFO Request ID is 0fe9d342-4cca-445a-b8e0-56cece5e1203
+2026-09-20 13:18:55,367 INFO status has been updated to successful
+============================================================
+ERA5-LAND AUTOMATED DOWNLOADER — SIH26001
+Spatial Extent: North=29.5, South=21.8, West=88.0, East=97.5
+Target Directory: data/external/era5_land
+============================================================
+Total months to process: 117
+
+[1/117] Checking 2007-06 (June)...
+    SKIPPED: era5_land_2007_06.nc already exists and is valid.
+[2/117] Checking 2007-07 (July)...
+    SKIPPED: era5_land_2007_07.nc already exists and is valid.
+[3/117] Checking 2007-08 (August)...
+    SKIPPED: era5_land_2007_08.nc already exists and is valid.
+[4/117] Checking 2007-09 (September)...
+    SKIPPED: era5_land_2007_09.nc already exists and is valid.
+[5/117] Checking 2008-06 (June)...
+    SKIPPED: era5_land_2008_06.nc already exists and is valid.
+[6/117] Checking 2008-07 (July)...
+    SKIPPED: era5_land_2008_07.nc already exists and is valid.
+[7/117] Checking 2008-08 (August)...
+    SKIPPED: era5_land_2008_08.nc already exists and is valid.
+[8/117] Checking 2008-12 (December)...
+    SKIPPED: era5_land_2008_12.nc already exists and is valid.
+[9/117] Checking 2009-05 (May)...
+    SKIPPED: era5_land_2009_05.nc already exists and is valid.
+[10/117] Checking 2009-06 (June)...
+    SKIPPED: era5_land_2009_06.nc already exists and is valid.
+[11/117] Checking 2009-07 (July)...
+    SKIPPED: era5_land_2009_07.nc already exists and is valid.
+[12/117] Checking 2009-08 (August)...
+    SKIPPED: era5_land_2009_08.nc already exists and is valid.
+[13/117] Checking 2010-03 (March)...
+    SKIPPED: era5_land_2010_03.nc already exists and is valid.
+[14/117] Checking 2010-04 (April)...
+    SKIPPED: era5_land_2010_04.nc already exists and is valid.
+[15/117] Checking 2010-05 (May)...
+    SKIPPED: era5_land_2010_05.nc already exists and is valid.
+[16/117] Checking 2010-06 (June)...
+    SKIPPED: era5_land_2010_06.nc already exists and is valid.
+[17/117] Checking 2010-08 (August)...
+    SKIPPED: era5_land_2010_08.nc already exists and is valid.
+[18/117] Checking 2010-09 (September)...
+    SKIPPED: era5_land_2010_09.nc already exists and is valid.
+[19/117] Checking 2010-10 (October)...
+    SKIPPED: era5_land_2010_10.nc already exists and is valid.
+[20/117] Checking 2011-03 (March)...
+    SKIPPED: era5_land_2011_03.nc already exists and is valid.
+[21/117] Checking 2011-05 (May)...
+    SKIPPED: era5_land_2011_05.nc already exists and is valid.
+[22/117] Checking 2011-06 (June)...
+    SKIPPED: era5_land_2011_06.nc already exists and is valid.
+[23/117] Checking 2011-07 (July)...
+    SKIPPED: era5_land_2011_07.nc already exists and is valid.
+[24/117] Checking 2012-04 (April)...
+    SKIPPED: era5_land_2012_04.nc already exists and is valid.
+[25/117] Checking 2012-05 (May)...
+
+--> Requesting 2012-05 (May 2012) [Attempt 1/3]...
+198943fa3b176f395658089ee063f967.nc:   0%|          | 0.00/10.9M [00:00<?, ?B/s]198943fa3b176f395658089ee063f967.nc:   9%|▉         | 1.00M/10.9M [00:02<00:26, 389kB/s]198943fa3b176f395658089ee063f967.nc:  18%|█▊        | 2.00M/10.9M [00:02<00:11, 819kB/s]198943fa3b176f395658089ee063f967.nc:  28%|██▊       | 3.00M/10.9M [00:03<00:06, 1.31MB/s]198943fa3b176f395658089ee063f967.nc:  55%|█████▌    | 6.00M/10.9M [00:03<00:01, 3.13MB/s]198943fa3b176f395658089ee063f967.nc:  73%|███████▎  | 8.00M/10.9M [00:03<00:00, 4.02MB/s]198943fa3b176f395658089ee063f967.nc: 100%|██████████| 10.9M/10.9M [00:04<00:00, 5.53MB/s]                                                                                         2026-09-20 13:19:06,672 INFO Request ID is 8d6fc455-9bcc-4ea2-a3e8-b4aea6527b5a
+2026-09-20 13:19:06,995 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2012_05.nc (10.90 MB)
+[26/117] Checking 2012-06 (June)...
+
+--> Requesting 2012-06 (June 2012) [Attempt 1/3]...
+4b62f00305100de6ec480f96b43ffd98.nc:   0%|          | 0.00/13.1M [00:00<?, ?B/s]4b62f00305100de6ec480f96b43ffd98.nc:   8%|▊         | 1.00M/13.1M [00:02<00:33, 384kB/s]4b62f00305100de6ec480f96b43ffd98.nc:  15%|█▌        | 2.00M/13.1M [00:03<00:14, 808kB/s]4b62f00305100de6ec480f96b43ffd98.nc:  23%|██▎       | 3.00M/13.1M [00:03<00:08, 1.30MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  38%|███▊      | 5.00M/13.1M [00:03<00:03, 2.29MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  61%|██████    | 8.00M/13.1M [00:04<00:01, 3.34MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  76%|███████▋  | 10.0M/13.1M [00:04<00:00, 4.06MB/s]4b62f00305100de6ec480f96b43ffd98.nc:  84%|████████▍ | 11.0M/13.1M [00:04<00:00, 3.99MB/s]4b62f00305100de6ec480f96b43ffd98.nc: 100%|██████████| 13.1M/13.1M [00:05<00:00, 4.81MB/s]                                                                                         2026-09-20 13:19:14,413 INFO Request ID is 70e7e700-5805-4591-a9ff-8ca129e029bc
+2026-09-20 13:19:14,725 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2012_06.nc (13.08 MB)
+[27/117] Checking 2012-07 (July)...
+
+--> Requesting 2012-07 (July 2012) [Attempt 1/3]...
+6f10800f67bf09e75205ee1e36ce5b32.nc:   0%|          | 0.00/14.6M [00:00<?, ?B/s]6f10800f67bf09e75205ee1e36ce5b32.nc:   7%|▋         | 1.00M/14.6M [00:02<00:36, 386kB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  14%|█▎        | 2.00M/14.6M [00:03<00:16, 808kB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  21%|██        | 3.00M/14.6M [00:03<00:09, 1.30MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  34%|███▍      | 5.00M/14.6M [00:03<00:04, 2.43MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  55%|█████▍    | 8.00M/14.6M [00:03<00:01, 4.20MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  69%|██████▊   | 10.0M/14.6M [00:04<00:00, 4.94MB/s]6f10800f67bf09e75205ee1e36ce5b32.nc:  89%|████████▉ | 13.0M/14.6M [00:04<00:00, 6.38MB/s]                                                                                         2026-09-20 13:19:22,314 INFO Request ID is 381fd0f3-aa52-4597-83f3-cc3e78d3051e
+2026-09-20 13:19:22,618 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2012_07.nc (14.56 MB)
+[28/117] Checking 2012-08 (August)...
+
+--> Requesting 2012-08 (August 2012) [Attempt 1/3]...
+13002911d9802a1ec38e83390105024d.nc:   0%|          | 0.00/13.7M [00:00<?, ?B/s]13002911d9802a1ec38e83390105024d.nc:   7%|▋         | 1.00M/13.7M [00:02<00:34, 384kB/s]13002911d9802a1ec38e83390105024d.nc:  15%|█▍        | 2.00M/13.7M [00:03<00:15, 808kB/s]13002911d9802a1ec38e83390105024d.nc:  22%|██▏       | 3.00M/13.7M [00:03<00:08, 1.29MB/s]13002911d9802a1ec38e83390105024d.nc:  44%|████▎     | 6.00M/13.7M [00:03<00:02, 3.08MB/s]13002911d9802a1ec38e83390105024d.nc:  58%|█████▊    | 8.00M/13.7M [00:03<00:01, 3.96MB/s]13002911d9802a1ec38e83390105024d.nc:  80%|████████  | 11.0M/13.7M [00:04<00:00, 5.52MB/s]13002911d9802a1ec38e83390105024d.nc: 100%|██████████| 13.7M/13.7M [00:04<00:00, 6.60MB/s]                                                                                         2026-09-20 13:19:30,839 INFO Request ID is 3c0217f9-b9ec-4543-85f4-a79e07c4a67c
+2026-09-20 13:19:31,158 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2012_08.nc (13.74 MB)
+[29/117] Checking 2013-06 (June)...
+
+--> Requesting 2013-06 (June 2013) [Attempt 1/3]...
+b6cbfc2d59da4ece857080c61eaa2812.nc:   0%|          | 0.00/12.5M [00:00<?, ?B/s]b6cbfc2d59da4ece857080c61eaa2812.nc:   8%|▊         | 1.00M/12.5M [00:02<00:30, 393kB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  16%|█▌        | 2.00M/12.5M [00:02<00:13, 827kB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  24%|██▍       | 3.00M/12.5M [00:03<00:07, 1.31MB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  48%|████▊     | 6.00M/12.5M [00:03<00:02, 3.13MB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  64%|██████▍   | 8.00M/12.5M [00:03<00:01, 4.03MB/s]b6cbfc2d59da4ece857080c61eaa2812.nc:  88%|████████▊ | 11.0M/12.5M [00:04<00:00, 5.61MB/s]                                                                                         2026-09-20 13:19:38,984 INFO Request ID is dc9d5e34-2867-4f5b-af5e-b27a0a5e2364
+2026-09-20 13:19:39,290 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2013_06.nc (12.52 MB)
+[30/117] Checking 2013-07 (July)...
+
+--> Requesting 2013-07 (July 2013) [Attempt 1/3]...
+acc5b05255e221cde8a7000513575c0a.nc:   0%|          | 0.00/14.3M [00:00<?, ?B/s]acc5b05255e221cde8a7000513575c0a.nc:   7%|▋         | 1.00M/14.3M [00:02<00:36, 384kB/s]acc5b05255e221cde8a7000513575c0a.nc:  14%|█▍        | 2.00M/14.3M [00:03<00:15, 808kB/s]acc5b05255e221cde8a7000513575c0a.nc:  21%|██        | 3.00M/14.3M [00:03<00:09, 1.28MB/s]acc5b05255e221cde8a7000513575c0a.nc:  42%|████▏     | 6.00M/14.3M [00:03<00:02, 3.07MB/s]acc5b05255e221cde8a7000513575c0a.nc:  63%|██████▎   | 9.00M/14.3M [00:03<00:01, 4.56MB/s]acc5b05255e221cde8a7000513575c0a.nc:  84%|████████▍ | 12.0M/14.3M [00:04<00:00, 5.96MB/s]acc5b05255e221cde8a7000513575c0a.nc:  98%|█████████▊| 14.0M/14.3M [00:04<00:00, 6.53MB/s]                                                                                         2026-09-20 13:19:46,178 INFO Request ID is 66ba0a44-5bd3-4cd2-9709-ca3a1541d134
+2026-09-20 13:19:46,657 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2013_07.nc (14.28 MB)
+[31/117] Checking 2013-08 (August)...
+
+--> Requesting 2013-08 (August 2013) [Attempt 1/3]...
+461a6396af64d0dc23845b620e0a7d27.nc:   0%|          | 0.00/14.0M [00:00<?, ?B/s]461a6396af64d0dc23845b620e0a7d27.nc:   7%|▋         | 1.00M/14.0M [00:02<00:35, 386kB/s]461a6396af64d0dc23845b620e0a7d27.nc:  14%|█▍        | 2.00M/14.0M [00:03<00:15, 813kB/s]461a6396af64d0dc23845b620e0a7d27.nc:  22%|██▏       | 3.00M/14.0M [00:03<00:08, 1.30MB/s]461a6396af64d0dc23845b620e0a7d27.nc:  43%|████▎     | 6.00M/14.0M [00:03<00:02, 3.10MB/s]461a6396af64d0dc23845b620e0a7d27.nc:  65%|██████▍   | 9.00M/14.0M [00:03<00:01, 4.57MB/s]461a6396af64d0dc23845b620e0a7d27.nc:  86%|████████▌ | 12.0M/14.0M [00:04<00:00, 5.98MB/s]                                                                                         2026-09-20 13:19:53,837 INFO Request ID is c5d389fc-2504-432d-a931-cef49c33a462
+2026-09-20 13:19:54,735 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2013_08.nc (13.95 MB)
+[32/117] Checking 2013-09 (September)...
+
+--> Requesting 2013-09 (September 2013) [Attempt 1/3]...
+48f45b2dc54cee199f2daafb5e43a22d.nc:   0%|          | 0.00/12.4M [00:00<?, ?B/s]48f45b2dc54cee199f2daafb5e43a22d.nc:   8%|▊         | 1.00M/12.4M [00:02<00:31, 380kB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  16%|█▌        | 2.00M/12.4M [00:03<00:13, 802kB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  24%|██▍       | 3.00M/12.4M [00:03<00:07, 1.27MB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  48%|████▊     | 6.00M/12.4M [00:03<00:02, 3.03MB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  65%|██████▍   | 8.00M/12.4M [00:03<00:01, 3.88MB/s]48f45b2dc54cee199f2daafb5e43a22d.nc:  89%|████████▉ | 11.0M/12.4M [00:04<00:00, 5.46MB/s]                                                                                         2026-09-20 13:20:03,931 INFO Request ID is 81951eb6-2382-4890-b1e8-daf675164186
+2026-09-20 13:20:05,426 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2013_09.nc (12.38 MB)
+[33/117] Checking 2014-05 (May)...
+
+--> Requesting 2014-05 (May 2014) [Attempt 1/3]...
+b8761b737f9f988a57dbd12196d5a774.nc:   0%|          | 0.00/11.9M [00:00<?, ?B/s]b8761b737f9f988a57dbd12196d5a774.nc:   8%|▊         | 1.00M/11.9M [00:02<00:29, 385kB/s]b8761b737f9f988a57dbd12196d5a774.nc:  17%|█▋        | 2.00M/11.9M [00:03<00:12, 810kB/s]b8761b737f9f988a57dbd12196d5a774.nc:  25%|██▌       | 3.00M/11.9M [00:03<00:07, 1.29MB/s]b8761b737f9f988a57dbd12196d5a774.nc:  50%|█████     | 6.00M/11.9M [00:03<00:02, 3.08MB/s]b8761b737f9f988a57dbd12196d5a774.nc:  75%|███████▌  | 9.00M/11.9M [00:03<00:00, 4.71MB/s]b8761b737f9f988a57dbd12196d5a774.nc:  92%|█████████▏| 11.0M/11.9M [00:04<00:00, 5.30MB/s]                                                                                         2026-09-20 13:20:13,739 INFO Request ID is 37200e86-9d7c-4461-8e58-0d5cac97fcaf
+2026-09-20 13:20:14,051 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2014_05.nc (11.94 MB)
+[34/117] Checking 2014-06 (June)...
+
+--> Requesting 2014-06 (June 2014) [Attempt 1/3]...
+7d83e90a14582b384a685513012030c6.nc:   0%|          | 0.00/13.2M [00:00<?, ?B/s]7d83e90a14582b384a685513012030c6.nc:   8%|▊         | 1.00M/13.2M [00:02<00:33, 382kB/s]7d83e90a14582b384a685513012030c6.nc:  15%|█▌        | 2.00M/13.2M [00:03<00:14, 807kB/s]7d83e90a14582b384a685513012030c6.nc:  23%|██▎       | 3.00M/13.2M [00:03<00:08, 1.31MB/s]7d83e90a14582b384a685513012030c6.nc:  46%|████▌     | 6.00M/13.2M [00:03<00:02, 3.11MB/s]7d83e90a14582b384a685513012030c6.nc:  68%|██████▊   | 9.00M/13.2M [00:03<00:00, 4.71MB/s]7d83e90a14582b384a685513012030c6.nc:  91%|█████████ | 12.0M/13.2M [00:04<00:00, 5.88MB/s]                                                                                         2026-09-20 13:20:20,773 INFO Request ID is 262da43c-1956-4ccc-bd9a-abfcbbf9dda8
+2026-09-20 13:20:21,089 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2014_06.nc (13.16 MB)
+[35/117] Checking 2014-07 (July)...
+
+--> Requesting 2014-07 (July 2014) [Attempt 1/3]...
+b48cfbcd04d18284cfe6957ef2485bed.nc:   0%|          | 0.00/14.2M [00:00<?, ?B/s]b48cfbcd04d18284cfe6957ef2485bed.nc:   7%|▋         | 1.00M/14.2M [00:02<00:36, 379kB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  14%|█▍        | 2.00M/14.2M [00:03<00:16, 799kB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  21%|██        | 3.00M/14.2M [00:03<00:09, 1.30MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  28%|██▊       | 4.00M/14.2M [00:03<00:05, 1.97MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  42%|████▏     | 6.00M/14.2M [00:03<00:02, 3.49MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  49%|████▉     | 7.00M/14.2M [00:03<00:01, 4.26MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  56%|█████▋    | 8.00M/14.2M [00:03<00:01, 4.59MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  70%|███████   | 10.0M/14.2M [00:03<00:00, 6.93MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  84%|████████▍ | 12.0M/14.2M [00:04<00:00, 7.06MB/s]b48cfbcd04d18284cfe6957ef2485bed.nc:  99%|█████████▊| 14.0M/14.2M [00:04<00:00, 8.11MB/s]                                                                                         2026-09-20 13:20:30,269 INFO Request ID is 44a4b8bc-d6c2-4642-bfc2-012a46404473
+2026-09-20 13:20:30,633 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2014_07.nc (14.20 MB)
+[36/117] Checking 2014-08 (August)...
+
+--> Requesting 2014-08 (August 2014) [Attempt 1/3]...
+cb13977f4dd66950beeea5cf7de25eab.nc:   0%|          | 0.00/15.7M [00:00<?, ?B/s]cb13977f4dd66950beeea5cf7de25eab.nc:   6%|▋         | 1.00M/15.7M [00:02<00:40, 381kB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  13%|█▎        | 2.00M/15.7M [00:03<00:17, 801kB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  19%|█▉        | 3.00M/15.7M [00:03<00:10, 1.31MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  25%|██▌       | 4.00M/15.7M [00:03<00:06, 1.98MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  32%|███▏      | 5.00M/15.7M [00:03<00:04, 2.62MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  38%|███▊      | 6.00M/15.7M [00:03<00:02, 3.44MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  45%|████▍     | 7.00M/15.7M [00:03<00:02, 3.98MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  57%|█████▋    | 9.00M/15.7M [00:04<00:01, 5.09MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  70%|███████   | 11.0M/15.7M [00:04<00:00, 7.16MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  76%|███████▋  | 12.0M/15.7M [00:04<00:00, 6.89MB/s]cb13977f4dd66950beeea5cf7de25eab.nc:  89%|████████▉ | 14.0M/15.7M [00:04<00:00, 8.93MB/s]cb13977f4dd66950beeea5cf7de25eab.nc: 100%|██████████| 15.7M/15.7M [00:04<00:00, 7.95MB/s]                                                                                         2026-09-20 13:20:37,856 INFO Request ID is 99b8b9c2-2fe1-4262-a9c4-f2ee6634ca95
+2026-09-20 13:20:38,600 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2014_08.nc (15.71 MB)
+[37/117] Checking 2014-09 (September)...
+
+--> Requesting 2014-09 (September 2014) [Attempt 1/3]...
+6ec9cd96dc862a39c287d96671f4cfd.nc:   0%|          | 0.00/12.6M [00:00<?, ?B/s]6ec9cd96dc862a39c287d96671f4cfd.nc:   8%|▊         | 1.00M/12.6M [00:02<00:32, 380kB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  16%|█▌        | 2.00M/12.6M [00:03<00:13, 798kB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  24%|██▍       | 3.00M/12.6M [00:03<00:08, 1.24MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  40%|███▉      | 5.00M/12.6M [00:03<00:03, 2.30MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  63%|██████▎   | 8.00M/12.6M [00:04<00:01, 3.90MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  71%|███████▏  | 9.00M/12.6M [00:04<00:01, 3.77MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  79%|███████▉  | 10.0M/12.6M [00:04<00:00, 3.82MB/s]6ec9cd96dc862a39c287d96671f4cfd.nc:  95%|█████████▌| 12.0M/12.6M [00:04<00:00, 4.66MB/s]                                                                                        2026-09-20 13:20:45,964 INFO Request ID is fb60087a-4d25-4f38-a8f4-f0744b25bade
+2026-09-20 13:20:46,281 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2014_09.nc (12.60 MB)
+[38/117] Checking 2015-05 (May)...
+
+--> Requesting 2015-05 (May 2015) [Attempt 1/3]...
+e9368e17f78713845a76d481ee2d91d2.nc:   0%|          | 0.00/12.0M [00:00<?, ?B/s]e9368e17f78713845a76d481ee2d91d2.nc:   8%|▊         | 1.00M/12.0M [00:02<00:29, 388kB/s]e9368e17f78713845a76d481ee2d91d2.nc:  17%|█▋        | 2.00M/12.0M [00:02<00:12, 817kB/s]e9368e17f78713845a76d481ee2d91d2.nc:  25%|██▌       | 3.00M/12.0M [00:03<00:07, 1.30MB/s]e9368e17f78713845a76d481ee2d91d2.nc:  50%|█████     | 6.00M/12.0M [00:03<00:02, 3.12MB/s]e9368e17f78713845a76d481ee2d91d2.nc:  67%|██████▋   | 8.00M/12.0M [00:03<00:01, 3.98MB/s]e9368e17f78713845a76d481ee2d91d2.nc:  83%|████████▎ | 10.0M/12.0M [00:04<00:00, 4.77MB/s]                                                                                         2026-09-20 13:20:53,145 INFO Request ID is 84588443-126c-4120-a8b5-5d4f17a34533
+2026-09-20 13:20:53,495 INFO status has been updated to successful
+    SUCCESS: Saved and validated era5_land_2015_05.nc (12.00 MB)
+[39/117] Checking 2015-06 (June)...
+
+--> Requesting 2015-06 (June 2015) [Attempt 1/3]...
+40ceec4554441e920c9eed7e238b9f2b.nc:   0%|          | 0.00/13.3M [00:00<?, ?B/s]40ceec4554441e920c9eed7e238b9f2b.nc:   8%|▊         | 1.00M/13.3M [00:02<00:33, 389kB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  15%|█▌        | 2.00M/13.3M [00:02<00:14, 819kB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  23%|██▎       | 3.00M/13.3M [00:03<00:08, 1.30MB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  45%|████▌     | 6.00M/13.3M [00:03<00:02, 3.11MB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  60%|██████    | 8.00M/13.3M [00:03<00:01, 4.01MB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  75%|███████▌  | 10.0M/13.3M [00:04<00:00, 4.75MB/s]40ceec4554441e920c9eed7e238b9f2b.nc:  98%|█████████▊| 13.0M/13.3M [00:04<00:00, 6.25MB/s]                                                                                         Traceback (most recent call last):
+  File "/app/applet/download_era5.py", line 16, in <module>
+    import cdsapi
+ModuleNotFoundError: No module named 'cdsapi'
